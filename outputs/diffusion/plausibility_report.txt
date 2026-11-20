@@ -1,0 +1,5 @@
+Weather Field Plausibility Report
+Numerical validity: True
+Range check: True
+Coarse consistency MAE: 0.014633
+Spatial smoothness: 0.042935

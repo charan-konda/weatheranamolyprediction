@@ -1,0 +1,16 @@
+{
+    "diagnostic_run_time_local": "2026-11-20T10:07:04+05:30",
+    "latest_aligned_weather_time_utc": "2026-11-20T04:00",
+    "sequence_length_hours": 24,
+    "graph_node_count": 17,
+    "watchlist_city_count": 12,
+    "feature_count": 8,
+    "stgnn_training_threshold_latest_hour_node_mse": 0.007392348255962133,
+    "reference_city_latest_mse_mean": 0.003254873910918832,
+    "reference_city_latest_mse_median": 0.0032359592150896788,
+    "watchlist_city_latest_mse_mean": 0.12487285254367937,
+    "watchlist_city_latest_mse_median": 0.01680942066013813,
+    "reference_cities_above_threshold": 0,
+    "watchlist_cities_above_threshold": 7,
+    "interpretation_warning": "High errors for unfamiliar cities may reflect distribution shift, dynamic-graph differences, or unusual weather. This diagnostic alone cannot distinguish these causes or confirm meteorological anomalies."
+}

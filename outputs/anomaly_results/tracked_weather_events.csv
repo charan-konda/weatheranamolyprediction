@@ -1,0 +1,741 @@
+event_id,start_time,end_time,duration_hours,anomaly_records,distinct_timestamps,number_of_locations,location_ids,locations,maximum_gnn_anomaly_score,severity,dominant_weather_signal,event_category,event_status,event_type
+EVT_00001,2018-01-01 16:00:00,2018-01-01 16:00:00,0.0,1,1,1,2,Machilipatnam,0.012572418,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00002,2018-01-19 09:00:00,2018-01-19 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.020061746,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00003,2018-01-20 09:00:00,2018-01-20 09:00:00,0.0,1,1,1,4,Ongole,0.013327751,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00004,2018-01-22 08:00:00,2018-01-22 08:00:00,0.0,1,1,1,3,Nellore,0.014075409,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00005,2018-02-01 02:00:00,2018-02-01 05:00:00,3.0,4,4,1,0,Visakhapatnam,0.028811323,High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00006,2018-02-01 04:00:00,2018-02-01 04:00:00,0.0,1,1,1,4,Ongole,0.012703429,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00007,2018-02-01 08:00:00,2018-02-01 09:00:00,1.0,2,2,1,0,Visakhapatnam,0.03376786,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00008,2018-02-01 09:00:00,2018-02-01 10:00:00,1.0,2,2,1,4,Ongole,0.015294079,Low,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00009,2018-02-02 06:00:00,2018-02-02 09:00:00,3.0,5,3,3,"0,2,4","Visakhapatnam, Machilipatnam, Ongole",0.021151928,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00010,2018-02-03 03:00:00,2018-02-03 06:00:00,3.0,4,4,1,0,Visakhapatnam,0.039005622,Very High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00011,2018-02-03 07:00:00,2018-02-03 09:00:00,2.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.019907994,Moderate,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00012,2018-02-04 04:00:00,2018-02-04 07:00:00,3.0,4,4,1,4,Ongole,0.017283048,Low,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00013,2018-02-04 08:00:00,2018-02-04 08:00:00,0.0,1,1,1,3,Nellore,0.012361981,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00014,2018-02-05 09:00:00,2018-02-05 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.012934579,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00015,2018-02-08 09:00:00,2018-02-08 10:00:00,1.0,2,2,1,0,Visakhapatnam,0.01650612,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00016,2018-02-08 10:00:00,2018-02-08 10:00:00,0.0,1,1,1,3,Nellore,0.01714441,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00017,2018-02-20 05:00:00,2018-02-20 05:00:00,0.0,1,1,1,0,Visakhapatnam,0.012989049,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00018,2018-02-25 02:00:00,2018-02-25 03:00:00,1.0,2,2,1,0,Visakhapatnam,0.027456474,High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00019,2018-02-25 08:00:00,2018-02-25 08:00:00,0.0,1,1,1,0,Visakhapatnam,0.014513313,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00020,2018-02-25 23:00:00,2018-02-26 02:00:00,3.0,4,4,1,0,Visakhapatnam,0.072981335,Very High,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00021,2018-02-26 03:00:00,2018-02-26 06:00:00,3.0,4,4,1,0,Visakhapatnam,0.073072754,Very High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00022,2018-02-26 07:00:00,2018-02-26 10:00:00,3.0,4,4,1,0,Visakhapatnam,0.032996498,High,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00023,2018-02-26 10:00:00,2018-02-26 11:00:00,1.0,3,2,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.022995114,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00024,2018-02-26 18:00:00,2018-02-26 21:00:00,3.0,4,4,1,1,Kakinada,0.01992417,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00025,2018-02-27 03:00:00,2018-02-27 05:00:00,2.0,3,3,1,1,Kakinada,0.024038684,Moderate,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00026,2018-03-02 18:00:00,2018-03-02 18:00:00,0.0,1,1,1,1,Kakinada,0.0137143815,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00027,2018-03-03 03:00:00,2018-03-03 03:00:00,0.0,1,1,1,4,Ongole,0.014763227,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00028,2018-03-03 06:00:00,2018-03-03 09:00:00,3.0,5,4,2,"0,2","Visakhapatnam, Machilipatnam",0.022696402,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00029,2018-03-03 18:00:00,2018-03-03 18:00:00,0.0,1,1,1,1,Kakinada,0.019725678,Moderate,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00030,2018-03-04 03:00:00,2018-03-04 06:00:00,3.0,4,4,1,0,Visakhapatnam,0.028495068,High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00031,2018-03-04 07:00:00,2018-03-04 09:00:00,2.0,4,3,2,"0,2","Visakhapatnam, Machilipatnam",0.02390419,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00032,2018-03-13 11:00:00,2018-03-13 11:00:00,0.0,1,1,1,1,Kakinada,0.014549788,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00033,2018-03-17 00:00:00,2018-03-17 00:00:00,0.0,1,1,1,4,Ongole,0.027700631,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00034,2018-03-22 14:00:00,2018-03-22 14:00:00,0.0,2,1,2,"2,4","Machilipatnam, Ongole",0.02128783,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00035,2018-03-30 13:00:00,2018-03-30 13:00:00,0.0,1,1,1,3,Nellore,0.014933254,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00036,2018-04-01 12:00:00,2018-04-01 12:00:00,0.0,1,1,1,4,Ongole,0.017916692,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00037,2018-04-02 12:00:00,2018-04-02 13:00:00,1.0,3,2,2,"3,4","Nellore, Ongole",0.0273874,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00038,2018-04-03 12:00:00,2018-04-03 12:00:00,0.0,1,1,1,4,Ongole,0.017089693,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00039,2018-04-08 13:00:00,2018-04-08 13:00:00,0.0,1,1,1,1,Kakinada,0.024522137,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00040,2018-04-12 13:00:00,2018-04-12 13:00:00,0.0,1,1,1,1,Kakinada,0.030989558,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00041,2018-04-14 12:00:00,2018-04-14 15:00:00,3.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.023958081,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00042,2018-04-15 14:00:00,2018-04-15 14:00:00,0.0,1,1,1,2,Machilipatnam,0.013811912,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00043,2018-04-16 17:00:00,2018-04-16 17:00:00,0.0,1,1,1,1,Kakinada,0.013989675,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00044,2018-04-23 14:00:00,2018-04-23 14:00:00,0.0,1,1,1,1,Kakinada,0.018283077,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00045,2018-04-24 13:00:00,2018-04-24 13:00:00,0.0,3,1,3,"0,2,4","Visakhapatnam, Machilipatnam, Ongole",0.05691761,Very High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00046,2018-04-29 13:00:00,2018-04-29 13:00:00,0.0,1,1,1,3,Nellore,0.026382571,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00047,2018-05-01 09:00:00,2018-05-01 09:00:00,0.0,1,1,1,1,Kakinada,0.026351918,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00048,2018-05-03 10:00:00,2018-05-03 13:00:00,3.0,3,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.019067166,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00049,2018-05-04 13:00:00,2018-05-04 13:00:00,0.0,1,1,1,3,Nellore,0.018721282,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00050,2018-05-05 13:00:00,2018-05-05 13:00:00,0.0,1,1,1,3,Nellore,0.023378074,Moderate,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00051,2018-05-12 12:00:00,2018-05-12 13:00:00,1.0,2,2,2,"2,3","Machilipatnam, Nellore",0.01623515,Low,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00052,2018-05-13 12:00:00,2018-05-13 12:00:00,0.0,1,1,1,2,Machilipatnam,0.017216358,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00053,2018-05-14 12:00:00,2018-05-14 14:00:00,2.0,4,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.018934783,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00054,2018-05-15 12:00:00,2018-05-15 12:00:00,0.0,1,1,1,2,Machilipatnam,0.01633808,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00055,2018-05-16 12:00:00,2018-05-16 13:00:00,1.0,4,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.03702968,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00056,2018-05-23 12:00:00,2018-05-23 12:00:00,0.0,1,1,1,3,Nellore,0.02191167,Moderate,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00057,2018-05-24 12:00:00,2018-05-24 12:00:00,0.0,1,1,1,1,Kakinada,0.019203067,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00058,2018-05-24 13:00:00,2018-05-24 13:00:00,0.0,1,1,1,3,Nellore,0.013709276,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00059,2018-05-29 11:00:00,2018-05-29 11:00:00,0.0,1,1,1,2,Machilipatnam,0.012929052,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00060,2018-06-01 05:00:00,2018-06-01 05:00:00,0.0,1,1,1,4,Ongole,0.018660996,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00061,2018-06-02 10:00:00,2018-06-02 11:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.018760137,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00062,2018-06-03 12:00:00,2018-06-03 12:00:00,0.0,1,1,1,3,Nellore,0.028332736,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00063,2018-06-05 02:00:00,2018-06-05 02:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.04058698,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00064,2018-06-05 13:00:00,2018-06-05 13:00:00,0.0,1,1,1,2,Machilipatnam,0.03596979,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00065,2018-06-05 23:00:00,2018-06-06 01:00:00,2.0,5,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.02625629,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00066,2018-06-06 07:00:00,2018-06-06 08:00:00,1.0,2,2,1,2,Machilipatnam,0.029579632,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00067,2018-06-06 17:00:00,2018-06-06 17:00:00,0.0,1,1,1,2,Machilipatnam,0.017254777,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00068,2018-06-07 04:00:00,2018-06-07 06:00:00,2.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.017633218,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00069,2018-06-07 23:00:00,2018-06-08 00:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.01642279,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00070,2018-06-11 18:00:00,2018-06-11 21:00:00,3.0,4,3,2,"1,2","Kakinada, Machilipatnam",0.015766261,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00071,2018-06-11 22:00:00,2018-06-12 01:00:00,3.0,11,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.07001274,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00072,2018-06-12 02:00:00,2018-06-12 02:00:00,0.0,1,1,1,1,Kakinada,0.029946115,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00073,2018-06-15 14:00:00,2018-06-15 15:00:00,1.0,2,2,1,3,Nellore,0.027782977,High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00074,2018-06-16 16:00:00,2018-06-16 19:00:00,3.0,2,2,2,"2,3","Machilipatnam, Nellore",0.022663556,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00075,2018-06-17 19:00:00,2018-06-17 19:00:00,0.0,1,1,1,1,Kakinada,0.017160868,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00076,2018-06-18 18:00:00,2018-06-18 20:00:00,2.0,3,3,2,"2,3","Machilipatnam, Nellore",0.028343625,High,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00077,2018-06-20 22:00:00,2018-06-20 22:00:00,0.0,1,1,1,3,Nellore,0.016716016,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00078,2018-06-21 13:00:00,2018-06-21 14:00:00,1.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.031446658,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00079,2018-06-27 23:00:00,2018-06-28 01:00:00,2.0,6,3,3,"1,2,3","Kakinada, Machilipatnam, Nellore",0.02799377,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00080,2018-06-28 03:00:00,2018-06-28 06:00:00,3.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.018042024,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00081,2018-06-28 17:00:00,2018-06-28 17:00:00,0.0,1,1,1,2,Machilipatnam,0.012747681,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00082,2018-06-29 02:00:00,2018-06-29 03:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.017998884,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00083,2018-06-29 08:00:00,2018-06-29 11:00:00,3.0,3,3,2,"1,2","Kakinada, Machilipatnam",0.03622656,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00084,2018-06-30 03:00:00,2018-06-30 03:00:00,0.0,2,1,2,"2,4","Machilipatnam, Ongole",0.050315216,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00085,2018-07-02 14:00:00,2018-07-02 14:00:00,0.0,1,1,1,2,Machilipatnam,0.014630357,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00086,2018-07-02 23:00:00,2018-07-02 23:00:00,0.0,1,1,1,3,Nellore,0.021391554,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00087,2018-07-05 22:00:00,2018-07-05 22:00:00,0.0,1,1,1,3,Nellore,0.017548373,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00088,2018-07-06 18:00:00,2018-07-06 19:00:00,1.0,5,2,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.026480062,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00089,2018-07-07 03:00:00,2018-07-07 03:00:00,0.0,1,1,1,2,Machilipatnam,0.015326832,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00090,2018-07-08 03:00:00,2018-07-08 05:00:00,2.0,9,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.07507715,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00091,2018-07-10 09:00:00,2018-07-10 09:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.017333427,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00092,2018-07-11 04:00:00,2018-07-11 05:00:00,1.0,2,2,1,2,Machilipatnam,0.04309064,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00093,2018-07-11 10:00:00,2018-07-11 10:00:00,0.0,1,1,1,3,Nellore,0.015470625,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00094,2018-07-13 13:00:00,2018-07-13 13:00:00,0.0,1,1,1,1,Kakinada,0.021988034,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00095,2018-07-14 00:00:00,2018-07-14 00:00:00,0.0,1,1,1,0,Visakhapatnam,0.013040088,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00096,2018-07-14 12:00:00,2018-07-14 12:00:00,0.0,1,1,1,0,Visakhapatnam,0.013662217,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00097,2018-07-15 01:00:00,2018-07-15 02:00:00,1.0,2,2,1,0,Visakhapatnam,0.047624398,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00098,2018-07-15 05:00:00,2018-07-15 06:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.025655232,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00099,2018-07-15 11:00:00,2018-07-15 14:00:00,3.0,10,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.09422306,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00100,2018-07-15 15:00:00,2018-07-15 18:00:00,3.0,4,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.029157998,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00101,2018-07-16 14:00:00,2018-07-16 14:00:00,0.0,1,1,1,0,Visakhapatnam,0.013115818,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00102,2018-07-20 01:00:00,2018-07-20 04:00:00,3.0,4,3,2,"0,1","Visakhapatnam, Kakinada",0.021988984,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00103,2018-07-20 05:00:00,2018-07-20 08:00:00,3.0,6,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.039027754,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00104,2018-07-20 09:00:00,2018-07-20 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.0142423585,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00105,2018-07-20 13:00:00,2018-07-20 16:00:00,3.0,2,2,1,0,Visakhapatnam,0.025053484,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00106,2018-07-20 17:00:00,2018-07-20 17:00:00,0.0,3,1,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.029803226,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00107,2018-07-22 15:00:00,2018-07-22 15:00:00,0.0,1,1,1,2,Machilipatnam,0.012593915,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00108,2018-07-23 17:00:00,2018-07-23 17:00:00,0.0,1,1,1,3,Nellore,0.01257841,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00109,2018-07-25 18:00:00,2018-07-25 18:00:00,0.0,1,1,1,3,Nellore,0.014504157,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00110,2018-07-27 17:00:00,2018-07-27 17:00:00,0.0,1,1,1,2,Machilipatnam,0.013734726,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00111,2018-07-29 13:00:00,2018-07-29 13:00:00,0.0,1,1,1,2,Machilipatnam,0.012735771,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00112,2018-08-03 00:00:00,2018-08-03 00:00:00,0.0,1,1,1,3,Nellore,0.019242156,Moderate,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00113,2018-08-03 22:00:00,2018-08-03 22:00:00,0.0,1,1,1,2,Machilipatnam,0.013449847,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00114,2018-08-04 20:00:00,2018-08-04 20:00:00,0.0,1,1,1,3,Nellore,0.014186683,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00115,2018-08-09 13:00:00,2018-08-09 13:00:00,0.0,1,1,1,0,Visakhapatnam,0.014934474,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00116,2018-08-09 17:00:00,2018-08-09 17:00:00,0.0,1,1,1,3,Nellore,0.031586744,High,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00117,2018-08-09 23:00:00,2018-08-10 01:00:00,2.0,3,3,2,"3,4","Nellore, Ongole",0.017142408,Low,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00118,2018-08-10 21:00:00,2018-08-11 00:00:00,3.0,5,4,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.02744548,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00119,2018-08-11 02:00:00,2018-08-11 02:00:00,0.0,1,1,1,3,Nellore,0.015795313,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00120,2018-08-11 12:00:00,2018-08-11 15:00:00,3.0,5,4,2,"0,1","Visakhapatnam, Kakinada",0.061827555,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00121,2018-08-11 17:00:00,2018-08-11 20:00:00,3.0,5,4,2,"2,4","Machilipatnam, Ongole",0.016748304,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00122,2018-08-12 07:00:00,2018-08-12 09:00:00,2.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.04571984,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00123,2018-08-12 12:00:00,2018-08-12 13:00:00,1.0,2,2,1,2,Machilipatnam,0.026999194,High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00124,2018-08-13 07:00:00,2018-08-13 07:00:00,0.0,2,1,2,"2,4","Machilipatnam, Ongole",0.016457167,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00125,2018-08-13 18:00:00,2018-08-13 20:00:00,2.0,3,3,1,2,Machilipatnam,0.014893886,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00126,2018-08-14 00:00:00,2018-08-14 02:00:00,2.0,5,3,2,"3,4","Nellore, Ongole",0.01957653,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00127,2018-08-14 02:00:00,2018-08-14 05:00:00,3.0,4,3,3,"0,2,4","Visakhapatnam, Machilipatnam, Ongole",0.015059754,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00128,2018-08-14 06:00:00,2018-08-14 09:00:00,3.0,4,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.031217732,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00129,2018-08-14 10:00:00,2018-08-14 10:00:00,0.0,1,1,1,3,Nellore,0.013834332,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00130,2018-08-14 14:00:00,2018-08-14 17:00:00,3.0,4,2,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.026312958,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00131,2018-08-14 19:00:00,2018-08-14 20:00:00,1.0,2,2,2,"2,3","Machilipatnam, Nellore",0.015736021,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00132,2018-08-15 00:00:00,2018-08-15 00:00:00,0.0,1,1,1,2,Machilipatnam,0.012826797,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00133,2018-08-15 04:00:00,2018-08-15 07:00:00,3.0,5,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.02956673,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00134,2018-08-15 08:00:00,2018-08-15 10:00:00,2.0,8,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.034757625,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00135,2018-08-15 12:00:00,2018-08-15 15:00:00,3.0,3,3,2,"0,2","Visakhapatnam, Machilipatnam",0.014792139,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00136,2018-08-18 06:00:00,2018-08-18 07:00:00,1.0,2,2,1,0,Visakhapatnam,0.02264375,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00137,2018-08-18 13:00:00,2018-08-18 13:00:00,0.0,1,1,1,1,Kakinada,0.012315188,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00138,2018-08-19 03:00:00,2018-08-19 03:00:00,0.0,1,1,1,2,Machilipatnam,0.023489645,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00139,2018-08-19 13:00:00,2018-08-19 14:00:00,1.0,2,2,1,2,Machilipatnam,0.016687535,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00140,2018-08-19 18:00:00,2018-08-19 19:00:00,1.0,2,2,1,0,Visakhapatnam,0.019468851,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00141,2018-08-19 23:00:00,2018-08-20 02:00:00,3.0,7,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.038293023,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00142,2018-08-20 03:00:00,2018-08-20 03:00:00,0.0,1,1,1,0,Visakhapatnam,0.013469983,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00143,2018-08-20 07:00:00,2018-08-20 10:00:00,3.0,7,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.021391151,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00144,2018-08-20 11:00:00,2018-08-20 14:00:00,3.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.014933704,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00145,2018-08-24 00:00:00,2018-08-24 01:00:00,1.0,2,2,1,3,Nellore,0.017474629,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00146,2018-08-25 17:00:00,2018-08-25 17:00:00,0.0,1,1,1,0,Visakhapatnam,0.014764179,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00147,2018-08-26 22:00:00,2018-08-26 22:00:00,0.0,1,1,1,3,Nellore,0.01309748,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00148,2018-08-27 18:00:00,2018-08-27 18:00:00,0.0,1,1,1,2,Machilipatnam,0.012429468,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00149,2018-08-28 23:00:00,2018-08-28 23:00:00,0.0,1,1,1,3,Nellore,0.014349082,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00150,2018-09-01 17:00:00,2018-09-01 17:00:00,0.0,1,1,1,2,Machilipatnam,0.01981397,Moderate,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00151,2018-09-02 12:00:00,2018-09-02 13:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.02248229,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00152,2018-09-03 17:00:00,2018-09-03 17:00:00,0.0,1,1,1,3,Nellore,0.018175123,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00153,2018-09-07 05:00:00,2018-09-07 05:00:00,0.0,1,1,1,0,Visakhapatnam,0.017383466,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00154,2018-09-10 13:00:00,2018-09-10 13:00:00,0.0,1,1,1,1,Kakinada,0.013780167,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00155,2018-09-10 23:00:00,2018-09-10 23:00:00,0.0,1,1,1,3,Nellore,0.01582317,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00156,2018-09-12 16:00:00,2018-09-12 16:00:00,0.0,1,1,1,2,Machilipatnam,0.013459925,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00157,2018-09-13 11:00:00,2018-09-13 14:00:00,3.0,9,4,4,"0,2,3,4","Visakhapatnam, Machilipatnam, Nellore, Ongole",0.029477313,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00158,2018-09-13 15:00:00,2018-09-13 15:00:00,0.0,3,1,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.04558511,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00159,2018-09-14 15:00:00,2018-09-14 15:00:00,0.0,1,1,1,4,Ongole,0.018248808,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00160,2018-09-15 09:00:00,2018-09-15 12:00:00,3.0,3,3,2,"3,4","Nellore, Ongole",0.013446526,Low,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00161,2018-09-15 13:00:00,2018-09-15 16:00:00,3.0,6,4,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.037885003,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00162,2018-09-15 17:00:00,2018-09-15 17:00:00,0.0,1,1,1,4,Ongole,0.0145847015,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00163,2018-09-16 12:00:00,2018-09-16 14:00:00,2.0,4,3,2,"0,1","Visakhapatnam, Kakinada",0.025155,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00164,2018-09-16 16:00:00,2018-09-16 17:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.018080136,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00165,2018-09-17 06:00:00,2018-09-17 06:00:00,0.0,1,1,1,3,Nellore,0.013130566,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00166,2018-09-17 11:00:00,2018-09-17 13:00:00,2.0,2,2,1,0,Visakhapatnam,0.029964024,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00167,2018-09-17 15:00:00,2018-09-17 16:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.01698145,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00168,2018-09-18 11:00:00,2018-09-18 14:00:00,3.0,8,3,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.040914115,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00169,2018-09-18 15:00:00,2018-09-18 17:00:00,2.0,9,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.021589318,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00170,2018-09-19 12:00:00,2018-09-19 15:00:00,3.0,6,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.05978539,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00171,2018-09-20 12:00:00,2018-09-20 13:00:00,1.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.017908959,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00172,2018-09-20 17:00:00,2018-09-20 18:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.016415475,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00173,2018-09-21 00:00:00,2018-09-21 02:00:00,2.0,7,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.043739326,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00174,2018-09-21 10:00:00,2018-09-21 13:00:00,3.0,3,3,1,0,Visakhapatnam,0.023697387,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00175,2018-09-21 17:00:00,2018-09-21 19:00:00,2.0,2,2,2,"2,3","Machilipatnam, Nellore",0.062235486,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00176,2018-09-21 22:00:00,2018-09-21 22:00:00,0.0,1,1,1,2,Machilipatnam,0.013667479,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00177,2018-09-22 10:00:00,2018-09-22 10:00:00,0.0,1,1,1,0,Visakhapatnam,0.017471485,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00178,2018-09-23 09:00:00,2018-09-23 09:00:00,0.0,1,1,1,2,Machilipatnam,0.012552828,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00179,2018-10-04 12:00:00,2018-10-04 12:00:00,0.0,1,1,1,3,Nellore,0.01481098,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00180,2018-10-05 10:00:00,2018-10-05 13:00:00,3.0,5,4,2,"3,4","Nellore, Ongole",0.018136358,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00181,2018-10-05 14:00:00,2018-10-05 14:00:00,0.0,1,1,1,3,Nellore,0.014602625,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00182,2018-10-09 17:00:00,2018-10-09 17:00:00,0.0,1,1,1,2,Machilipatnam,0.013852589,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00183,2018-10-10 11:00:00,2018-10-10 14:00:00,3.0,4,4,1,0,Visakhapatnam,0.03909375,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00184,2018-10-10 15:00:00,2018-10-10 17:00:00,2.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.045443747,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00185,2018-10-11 00:00:00,2018-10-11 03:00:00,3.0,2,2,1,0,Visakhapatnam,0.02154551,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00186,2018-10-11 04:00:00,2018-10-11 06:00:00,2.0,2,2,1,0,Visakhapatnam,0.014070378,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00187,2018-10-13 11:00:00,2018-10-13 13:00:00,2.0,2,2,1,2,Machilipatnam,0.016006863,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00188,2018-10-14 11:00:00,2018-10-14 12:00:00,1.0,2,2,1,4,Ongole,0.016855232,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00189,2018-10-15 04:00:00,2018-10-15 04:00:00,0.0,1,1,1,2,Machilipatnam,0.053763844,Very High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00190,2018-10-15 10:00:00,2018-10-15 13:00:00,3.0,3,3,1,2,Machilipatnam,0.018531676,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00191,2018-10-16 09:00:00,2018-10-16 10:00:00,1.0,2,2,1,2,Machilipatnam,0.024855796,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00192,2018-10-17 09:00:00,2018-10-17 10:00:00,1.0,2,2,2,"2,4","Machilipatnam, Ongole",0.015499229,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00193,2018-10-18 14:00:00,2018-10-18 14:00:00,0.0,1,1,1,2,Machilipatnam,0.014914014,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00194,2018-10-28 13:00:00,2018-10-28 15:00:00,2.0,3,3,2,"0,1","Visakhapatnam, Kakinada",0.017882532,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00195,2018-10-31 09:00:00,2018-10-31 12:00:00,3.0,4,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.0613893,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00196,2018-10-31 13:00:00,2018-10-31 16:00:00,3.0,2,2,2,"3,4","Nellore, Ongole",0.014705981,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00197,2018-11-01 00:00:00,2018-11-01 03:00:00,3.0,12,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.1464687,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00198,2018-11-01 04:00:00,2018-11-01 05:00:00,1.0,2,2,1,3,Nellore,0.016120953,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00199,2018-11-01 10:00:00,2018-11-01 10:00:00,0.0,2,1,2,"3,4","Nellore, Ongole",0.022597225,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00200,2018-11-15 10:00:00,2018-11-15 12:00:00,2.0,2,2,1,3,Nellore,0.03200379,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00201,2018-11-15 14:00:00,2018-11-15 14:00:00,0.0,1,1,1,2,Machilipatnam,0.012844443,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00202,2018-11-16 09:00:00,2018-11-16 11:00:00,2.0,2,2,2,"3,4","Nellore, Ongole",0.014488476,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00203,2018-11-16 13:00:00,2018-11-16 14:00:00,1.0,3,2,2,"2,4","Machilipatnam, Ongole",0.016472362,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00204,2018-11-17 12:00:00,2018-11-17 12:00:00,0.0,1,1,1,3,Nellore,0.018914996,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00205,2018-11-21 08:00:00,2018-11-21 11:00:00,3.0,6,4,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.021925319,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00206,2018-11-21 12:00:00,2018-11-21 15:00:00,3.0,8,4,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.05095137,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00207,2018-11-21 16:00:00,2018-11-21 17:00:00,1.0,6,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.07841047,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00208,2018-11-21 21:00:00,2018-11-22 00:00:00,3.0,5,3,2,"3,4","Nellore, Ongole",0.019968582,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00209,2018-11-22 01:00:00,2018-11-22 02:00:00,1.0,2,2,2,"3,4","Nellore, Ongole",0.01491317,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00210,2018-11-22 08:00:00,2018-11-22 11:00:00,3.0,3,3,2,"3,4","Nellore, Ongole",0.024235565,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00211,2018-11-22 16:00:00,2018-11-22 16:00:00,0.0,1,1,1,3,Nellore,0.013536382,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00212,2018-12-04 05:00:00,2018-12-04 05:00:00,0.0,1,1,1,3,Nellore,0.01704709,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00213,2018-12-05 10:00:00,2018-12-05 10:00:00,0.0,1,1,1,3,Nellore,0.013010115,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00214,2018-12-07 12:00:00,2018-12-07 12:00:00,0.0,1,1,1,3,Nellore,0.01915306,Moderate,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00215,2018-12-14 15:00:00,2018-12-14 17:00:00,2.0,4,3,2,"0,1","Visakhapatnam, Kakinada",0.0197254,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00216,2018-12-15 10:00:00,2018-12-15 13:00:00,3.0,8,4,2,"0,1","Visakhapatnam, Kakinada",0.023047613,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00217,2018-12-15 11:00:00,2018-12-15 11:00:00,0.0,1,1,1,3,Nellore,0.017997399,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00218,2018-12-15 14:00:00,2018-12-15 17:00:00,3.0,8,4,2,"0,1","Visakhapatnam, Kakinada",0.04910028,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00219,2018-12-15 18:00:00,2018-12-15 19:00:00,1.0,4,2,2,"0,1","Visakhapatnam, Kakinada",0.022341179,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00220,2018-12-15 18:00:00,2018-12-15 19:00:00,1.0,2,2,1,3,Nellore,0.014703233,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00221,2018-12-16 01:00:00,2018-12-16 03:00:00,2.0,3,3,2,"0,1","Visakhapatnam, Kakinada",0.017337153,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00222,2018-12-16 07:00:00,2018-12-16 10:00:00,3.0,5,4,2,"0,2","Visakhapatnam, Machilipatnam",0.026572028,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00223,2018-12-16 11:00:00,2018-12-16 14:00:00,3.0,10,4,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.039334305,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00224,2018-12-16 15:00:00,2018-12-16 18:00:00,3.0,6,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.03851331,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00225,2018-12-16 19:00:00,2018-12-16 22:00:00,3.0,12,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.0765448,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00226,2018-12-16 23:00:00,2018-12-17 02:00:00,3.0,13,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.02999881,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00227,2018-12-17 03:00:00,2018-12-17 06:00:00,3.0,10,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.08602014,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00228,2018-12-17 07:00:00,2018-12-17 10:00:00,3.0,14,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.10367666,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00229,2018-12-17 11:00:00,2018-12-17 14:00:00,3.0,16,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.2926616,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00230,2018-12-17 15:00:00,2018-12-17 18:00:00,3.0,12,4,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.112324364,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00231,2018-12-17 19:00:00,2018-12-17 21:00:00,2.0,7,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.04435091,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00232,2018-12-17 23:00:00,2018-12-18 00:00:00,1.0,2,2,1,0,Visakhapatnam,0.017605998,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00233,2018-12-19 12:00:00,2018-12-19 15:00:00,3.0,4,4,1,2,Machilipatnam,0.016656492,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00234,2018-12-28 11:00:00,2018-12-28 12:00:00,1.0,2,2,1,2,Machilipatnam,0.04126196,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00235,2018-12-29 04:00:00,2018-12-29 07:00:00,3.0,4,4,1,4,Ongole,0.023105113,Moderate,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00236,2018-12-30 03:00:00,2018-12-30 06:00:00,3.0,4,4,1,0,Visakhapatnam,0.01779759,Low,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00237,2018-12-31 06:00:00,2018-12-31 07:00:00,1.0,2,2,1,0,Visakhapatnam,0.014491163,Low,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00238,2019-01-08 10:00:00,2019-01-08 10:00:00,0.0,1,1,1,1,Kakinada,0.014103295,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00239,2019-01-30 03:00:00,2019-01-30 06:00:00,3.0,6,4,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.015853452,Low,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00240,2019-01-30 08:00:00,2019-01-30 08:00:00,0.0,1,1,1,1,Kakinada,0.0125491405,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00241,2019-01-31 08:00:00,2019-01-31 08:00:00,0.0,1,1,1,2,Machilipatnam,0.014927756,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00242,2019-02-06 09:00:00,2019-02-06 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.014295166,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00243,2019-02-07 09:00:00,2019-02-07 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.012408601,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00244,2019-02-09 13:00:00,2019-02-09 13:00:00,0.0,1,1,1,2,Machilipatnam,0.01389546,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00245,2019-02-10 06:00:00,2019-02-10 08:00:00,2.0,5,3,3,"1,2,3","Kakinada, Machilipatnam, Nellore",0.01740491,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00246,2019-02-17 12:00:00,2019-02-17 12:00:00,0.0,1,1,1,1,Kakinada,0.016625732,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00247,2019-02-22 09:00:00,2019-02-22 11:00:00,2.0,4,3,2,"1,2","Kakinada, Machilipatnam",0.023490468,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00248,2019-02-23 10:00:00,2019-02-23 10:00:00,0.0,1,1,1,3,Nellore,0.013092697,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00249,2019-02-24 08:00:00,2019-02-24 08:00:00,0.0,1,1,1,2,Machilipatnam,0.013583665,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00250,2019-02-25 04:00:00,2019-02-25 04:00:00,0.0,1,1,1,0,Visakhapatnam,0.014045176,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00251,2019-03-07 09:00:00,2019-03-07 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.01277023,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00252,2019-04-03 07:00:00,2019-04-03 07:00:00,0.0,1,1,1,3,Nellore,0.012272607,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00253,2019-04-08 14:00:00,2019-04-08 14:00:00,0.0,1,1,1,4,Ongole,0.012380856,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00254,2019-04-20 15:00:00,2019-04-20 15:00:00,0.0,1,1,1,1,Kakinada,0.014766329,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00255,2019-04-21 13:00:00,2019-04-21 13:00:00,0.0,1,1,1,1,Kakinada,0.024079898,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00256,2019-05-01 04:00:00,2019-05-01 05:00:00,1.0,2,2,1,1,Kakinada,0.01794256,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00257,2019-05-01 07:00:00,2019-05-01 07:00:00,0.0,1,1,1,4,Ongole,0.012692901,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00258,2019-05-01 10:00:00,2019-05-01 13:00:00,3.0,4,3,2,"1,2","Kakinada, Machilipatnam",0.038042746,Very High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00259,2019-05-01 17:00:00,2019-05-01 20:00:00,3.0,5,4,2,"0,1","Visakhapatnam, Kakinada",0.04501819,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00260,2019-05-01 21:00:00,2019-05-02 00:00:00,3.0,8,4,2,"0,1","Visakhapatnam, Kakinada",0.03671108,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00261,2019-05-02 01:00:00,2019-05-02 04:00:00,3.0,6,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.05947929,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00262,2019-05-02 05:00:00,2019-05-02 08:00:00,3.0,7,4,2,"0,1","Visakhapatnam, Kakinada",0.15882836,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00263,2019-05-02 09:00:00,2019-05-02 12:00:00,3.0,6,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.19128205,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00264,2019-05-02 13:00:00,2019-05-02 16:00:00,3.0,5,4,2,"0,2","Visakhapatnam, Machilipatnam",0.1897337,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00265,2019-05-02 17:00:00,2019-05-02 19:00:00,2.0,4,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.052510038,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00266,2019-05-02 21:00:00,2019-05-02 23:00:00,2.0,3,3,1,4,Ongole,0.02307536,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00267,2019-05-03 02:00:00,2019-05-03 03:00:00,1.0,2,2,1,4,Ongole,0.020421166,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00268,2019-05-05 11:00:00,2019-05-05 13:00:00,2.0,3,3,2,"2,3","Machilipatnam, Nellore",0.025105523,High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00269,2019-05-05 21:00:00,2019-05-05 21:00:00,0.0,1,1,1,0,Visakhapatnam,0.012323849,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00270,2019-05-06 14:00:00,2019-05-06 14:00:00,0.0,1,1,1,2,Machilipatnam,0.01800569,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00271,2019-05-09 09:00:00,2019-05-09 09:00:00,0.0,1,1,1,2,Machilipatnam,0.013647965,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00272,2019-05-10 12:00:00,2019-05-10 12:00:00,0.0,1,1,1,3,Nellore,0.012551604,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00273,2019-05-11 00:00:00,2019-05-11 00:00:00,0.0,1,1,1,1,Kakinada,0.013579196,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00274,2019-05-12 16:00:00,2019-05-12 16:00:00,0.0,1,1,1,1,Kakinada,0.01921396,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00275,2019-05-14 14:00:00,2019-05-14 14:00:00,0.0,1,1,1,4,Ongole,0.01876467,Moderate,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00276,2019-06-03 09:00:00,2019-06-03 09:00:00,0.0,1,1,1,2,Machilipatnam,0.01717791,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00277,2019-06-03 16:00:00,2019-06-03 17:00:00,1.0,5,2,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.07292399,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00278,2019-06-08 04:00:00,2019-06-08 05:00:00,1.0,3,2,2,"1,2","Kakinada, Machilipatnam",0.023905149,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00279,2019-06-09 05:00:00,2019-06-09 05:00:00,0.0,1,1,1,0,Visakhapatnam,0.013849535,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00280,2019-06-09 14:00:00,2019-06-09 17:00:00,3.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.021681437,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00281,2019-06-16 16:00:00,2019-06-16 16:00:00,0.0,1,1,1,1,Kakinada,0.02719294,High,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00282,2019-06-16 17:00:00,2019-06-16 17:00:00,0.0,1,1,1,3,Nellore,0.013306262,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00283,2019-06-17 18:00:00,2019-06-17 19:00:00,1.0,2,2,1,4,Ongole,0.026287563,High,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00284,2019-06-17 21:00:00,2019-06-17 21:00:00,0.0,1,1,1,0,Visakhapatnam,0.023518741,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00285,2019-06-18 05:00:00,2019-06-18 05:00:00,0.0,1,1,1,1,Kakinada,0.014575474,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00286,2019-06-18 14:00:00,2019-06-18 14:00:00,0.0,1,1,1,2,Machilipatnam,0.013178952,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00287,2019-06-20 13:00:00,2019-06-20 14:00:00,1.0,2,2,1,2,Machilipatnam,0.025385767,High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00288,2019-06-20 22:00:00,2019-06-21 01:00:00,3.0,4,3,2,"2,4","Machilipatnam, Ongole",0.022921827,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00289,2019-06-21 04:00:00,2019-06-21 05:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.12226743,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00290,2019-06-21 14:00:00,2019-06-21 17:00:00,3.0,3,3,2,"0,1","Visakhapatnam, Kakinada",0.014550305,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00291,2019-06-22 16:00:00,2019-06-22 19:00:00,3.0,2,2,1,3,Nellore,0.014540505,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00292,2019-06-23 04:00:00,2019-06-23 05:00:00,1.0,2,2,1,1,Kakinada,0.021497438,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00293,2019-06-24 11:00:00,2019-06-24 12:00:00,1.0,2,2,2,"2,4","Machilipatnam, Ongole",0.022135668,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00294,2019-06-25 01:00:00,2019-06-25 03:00:00,2.0,2,2,1,2,Machilipatnam,0.014345684,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00295,2019-06-25 14:00:00,2019-06-25 17:00:00,3.0,2,2,1,3,Nellore,0.020260377,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00296,2019-06-26 00:00:00,2019-06-26 03:00:00,3.0,2,2,2,"2,4","Machilipatnam, Ongole",0.02036208,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00297,2019-06-26 04:00:00,2019-06-26 04:00:00,0.0,1,1,1,2,Machilipatnam,0.01668403,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00298,2019-06-29 00:00:00,2019-06-29 00:00:00,0.0,1,1,1,2,Machilipatnam,0.016188523,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00299,2019-07-01 19:00:00,2019-07-01 19:00:00,0.0,1,1,1,3,Nellore,0.013205264,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00300,2019-07-03 15:00:00,2019-07-03 15:00:00,0.0,1,1,1,0,Visakhapatnam,0.014466562,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00301,2019-07-04 16:00:00,2019-07-04 18:00:00,2.0,2,2,2,"3,4","Nellore, Ongole",0.019331709,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00302,2019-07-05 17:00:00,2019-07-05 17:00:00,0.0,1,1,1,4,Ongole,0.0127454875,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00303,2019-07-05 23:00:00,2019-07-06 00:00:00,1.0,2,2,1,0,Visakhapatnam,0.016089201,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00304,2019-07-13 09:00:00,2019-07-13 11:00:00,2.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.019603096,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00305,2019-07-14 17:00:00,2019-07-14 17:00:00,0.0,1,1,1,3,Nellore,0.013898734,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00306,2019-07-15 20:00:00,2019-07-15 20:00:00,0.0,1,1,1,3,Nellore,0.013382668,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00307,2019-07-16 13:00:00,2019-07-16 15:00:00,2.0,4,2,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.052395996,Very High,Temperature,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00308,2019-07-17 12:00:00,2019-07-17 13:00:00,1.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.01798331,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00309,2019-07-17 14:00:00,2019-07-17 15:00:00,1.0,3,2,2,"3,4","Nellore, Ongole",0.04399135,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00310,2019-07-17 17:00:00,2019-07-17 17:00:00,0.0,1,1,1,0,Visakhapatnam,0.016537232,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00311,2019-07-18 02:00:00,2019-07-18 03:00:00,1.0,2,2,1,3,Nellore,0.013902781,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00312,2019-07-18 05:00:00,2019-07-18 05:00:00,0.0,1,1,1,1,Kakinada,0.013300136,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00313,2019-07-18 14:00:00,2019-07-18 16:00:00,2.0,8,3,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.06203442,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00314,2019-07-18 18:00:00,2019-07-18 18:00:00,0.0,1,1,1,2,Machilipatnam,0.012729244,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00315,2019-07-18 22:00:00,2019-07-18 23:00:00,1.0,2,2,1,3,Nellore,0.016529601,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00316,2019-07-19 03:00:00,2019-07-19 06:00:00,3.0,6,4,4,"0,2,3,4","Visakhapatnam, Machilipatnam, Nellore, Ongole",0.03748615,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00317,2019-07-19 07:00:00,2019-07-19 09:00:00,2.0,5,3,3,"0,2,3","Visakhapatnam, Machilipatnam, Nellore",0.044747375,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00318,2019-07-19 12:00:00,2019-07-19 12:00:00,0.0,1,1,1,1,Kakinada,0.037638538,Very High,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00319,2019-07-19 18:00:00,2019-07-19 19:00:00,1.0,2,2,1,2,Machilipatnam,0.018019695,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00320,2019-07-19 22:00:00,2019-07-20 01:00:00,3.0,5,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.023360072,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00321,2019-07-20 02:00:00,2019-07-20 03:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.02384576,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00322,2019-07-21 00:00:00,2019-07-21 00:00:00,0.0,1,1,1,3,Nellore,0.01586426,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00323,2019-07-21 06:00:00,2019-07-21 06:00:00,0.0,2,1,2,"2,4","Machilipatnam, Ongole",0.023451429,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00324,2019-07-22 01:00:00,2019-07-22 02:00:00,1.0,2,2,1,2,Machilipatnam,0.02981571,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00325,2019-07-23 01:00:00,2019-07-23 02:00:00,1.0,3,2,2,"1,2","Kakinada, Machilipatnam",0.015882744,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00326,2019-07-23 17:00:00,2019-07-23 17:00:00,0.0,1,1,1,2,Machilipatnam,0.014126071,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00327,2019-07-24 17:00:00,2019-07-24 17:00:00,0.0,1,1,1,4,Ongole,0.014369004,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00328,2019-07-25 22:00:00,2019-07-26 01:00:00,3.0,8,4,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.044681463,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00329,2019-07-26 03:00:00,2019-07-26 04:00:00,1.0,5,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.022483453,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00330,2019-07-27 19:00:00,2019-07-27 22:00:00,3.0,5,4,2,"1,2","Kakinada, Machilipatnam",0.023971908,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00331,2019-07-29 10:00:00,2019-07-29 11:00:00,1.0,2,2,1,0,Visakhapatnam,0.016026506,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00332,2019-08-01 06:00:00,2019-08-01 08:00:00,2.0,3,3,2,"0,2","Visakhapatnam, Machilipatnam",0.024470719,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00333,2019-08-01 17:00:00,2019-08-01 19:00:00,2.0,2,2,2,"3,4","Nellore, Ongole",0.021277457,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00334,2019-08-01 18:00:00,2019-08-01 21:00:00,3.0,7,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.03142338,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00335,2019-08-01 22:00:00,2019-08-01 22:00:00,0.0,1,1,1,2,Machilipatnam,0.014265811,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00336,2019-08-02 07:00:00,2019-08-02 09:00:00,2.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.01796881,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00337,2019-08-04 21:00:00,2019-08-04 21:00:00,0.0,1,1,1,3,Nellore,0.019461764,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00338,2019-08-05 19:00:00,2019-08-05 19:00:00,0.0,1,1,1,2,Machilipatnam,0.018891245,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00339,2019-08-06 10:00:00,2019-08-06 11:00:00,1.0,2,2,1,1,Kakinada,0.016167682,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00340,2019-08-06 14:00:00,2019-08-06 14:00:00,0.0,1,1,1,0,Visakhapatnam,0.0134360725,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00341,2019-08-06 19:00:00,2019-08-06 22:00:00,3.0,7,4,2,"0,1","Visakhapatnam, Kakinada",0.045537736,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00342,2019-08-06 23:00:00,2019-08-07 01:00:00,2.0,2,2,1,1,Kakinada,0.013279688,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00343,2019-08-07 04:00:00,2019-08-07 04:00:00,0.0,1,1,1,1,Kakinada,0.015412371,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00344,2019-08-07 10:00:00,2019-08-07 11:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.019654492,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00345,2019-08-07 14:00:00,2019-08-07 17:00:00,3.0,4,4,1,0,Visakhapatnam,0.042264108,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00346,2019-08-08 02:00:00,2019-08-08 05:00:00,3.0,7,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.024099795,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00347,2019-08-08 09:00:00,2019-08-08 10:00:00,1.0,2,2,1,0,Visakhapatnam,0.043869335,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00348,2019-08-08 13:00:00,2019-08-08 16:00:00,3.0,4,3,2,"0,1","Visakhapatnam, Kakinada",0.018710122,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00349,2019-08-08 14:00:00,2019-08-08 14:00:00,0.0,1,1,1,4,Ongole,0.015162483,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00350,2019-08-09 17:00:00,2019-08-09 17:00:00,0.0,1,1,1,2,Machilipatnam,0.013974817,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00351,2019-08-10 05:00:00,2019-08-10 05:00:00,0.0,1,1,1,2,Machilipatnam,0.013587005,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00352,2019-08-13 14:00:00,2019-08-13 14:00:00,0.0,1,1,1,1,Kakinada,0.014765349,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00353,2019-08-13 17:00:00,2019-08-13 17:00:00,0.0,1,1,1,3,Nellore,0.028772675,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00354,2019-08-14 15:00:00,2019-08-14 15:00:00,0.0,1,1,1,2,Machilipatnam,0.0141526265,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00355,2019-08-14 23:00:00,2019-08-15 02:00:00,3.0,6,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.0640253,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00356,2019-08-15 09:00:00,2019-08-15 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.012829689,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00357,2019-08-16 13:00:00,2019-08-16 13:00:00,0.0,1,1,1,2,Machilipatnam,0.019763216,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00358,2019-08-16 17:00:00,2019-08-16 17:00:00,0.0,1,1,1,2,Machilipatnam,0.013309889,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00359,2019-08-17 03:00:00,2019-08-17 03:00:00,0.0,1,1,1,2,Machilipatnam,0.019976884,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00360,2019-08-17 14:00:00,2019-08-17 16:00:00,2.0,6,3,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.031556778,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00361,2019-08-17 18:00:00,2019-08-17 18:00:00,0.0,1,1,1,3,Nellore,0.012411251,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00362,2019-08-18 05:00:00,2019-08-18 05:00:00,0.0,2,1,2,"3,4","Nellore, Ongole",0.019309226,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00363,2019-08-18 12:00:00,2019-08-18 15:00:00,3.0,10,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.08428845,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00364,2019-08-19 17:00:00,2019-08-19 17:00:00,0.0,1,1,1,3,Nellore,0.013252982,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00365,2019-08-20 05:00:00,2019-08-20 05:00:00,0.0,1,1,1,4,Ongole,0.012407927,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00366,2019-08-20 16:00:00,2019-08-20 17:00:00,1.0,6,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.088566445,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00367,2019-08-21 06:00:00,2019-08-21 06:00:00,0.0,1,1,1,2,Machilipatnam,0.017975576,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00368,2019-08-21 13:00:00,2019-08-21 13:00:00,0.0,1,1,1,0,Visakhapatnam,0.021731336,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00369,2019-08-21 16:00:00,2019-08-21 17:00:00,1.0,3,2,2,"3,4","Nellore, Ongole",0.017316928,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00370,2019-08-21 19:00:00,2019-08-21 20:00:00,1.0,2,2,1,0,Visakhapatnam,0.029177293,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00371,2019-08-29 04:00:00,2019-08-29 04:00:00,0.0,1,1,1,4,Ongole,0.013043573,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00372,2019-08-29 14:00:00,2019-08-29 15:00:00,1.0,2,2,1,2,Machilipatnam,0.016897948,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00373,2019-08-30 21:00:00,2019-08-30 23:00:00,2.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.063892186,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00374,2019-08-31 01:00:00,2019-08-31 01:00:00,0.0,2,1,2,"2,3","Machilipatnam, Nellore",0.02246514,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00375,2019-09-01 15:00:00,2019-09-01 15:00:00,0.0,1,1,1,1,Kakinada,0.015475078,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00376,2019-09-01 21:00:00,2019-09-01 22:00:00,1.0,2,2,1,2,Machilipatnam,0.023913112,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00377,2019-09-02 14:00:00,2019-09-02 14:00:00,0.0,1,1,1,1,Kakinada,0.025430102,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00378,2019-09-04 12:00:00,2019-09-04 12:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.014893243,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00379,2019-09-07 13:00:00,2019-09-07 13:00:00,0.0,1,1,1,3,Nellore,0.01845256,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00380,2019-09-11 04:00:00,2019-09-11 04:00:00,0.0,1,1,1,1,Kakinada,0.012527458,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00381,2019-09-12 09:00:00,2019-09-12 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.012273618,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00382,2019-09-14 13:00:00,2019-09-14 14:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.018914605,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00383,2019-09-16 15:00:00,2019-09-16 17:00:00,2.0,6,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.033748284,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00384,2019-09-17 01:00:00,2019-09-17 03:00:00,2.0,7,3,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.025699925,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00385,2019-09-17 05:00:00,2019-09-17 05:00:00,0.0,1,1,1,1,Kakinada,0.0278698,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00386,2019-09-17 14:00:00,2019-09-17 17:00:00,3.0,8,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.021220885,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00387,2019-09-17 20:00:00,2019-09-17 20:00:00,0.0,1,1,1,1,Kakinada,0.012592895,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00388,2019-09-17 23:00:00,2019-09-18 01:00:00,2.0,2,2,1,3,Nellore,0.01810692,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00389,2019-09-18 04:00:00,2019-09-18 04:00:00,0.0,3,1,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.018608753,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00390,2019-09-18 15:00:00,2019-09-18 17:00:00,2.0,5,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.08672865,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00391,2019-09-18 23:00:00,2019-09-19 01:00:00,2.0,3,3,1,2,Machilipatnam,0.016271116,Low,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00392,2019-09-19 04:00:00,2019-09-19 04:00:00,0.0,1,1,1,2,Machilipatnam,0.017992504,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00393,2019-09-20 12:00:00,2019-09-20 14:00:00,2.0,3,2,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.030935282,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00394,2019-09-21 12:00:00,2019-09-21 12:00:00,0.0,3,1,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.054440647,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00395,2019-09-22 10:00:00,2019-09-22 13:00:00,3.0,3,2,2,"3,4","Nellore, Ongole",0.019276895,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00396,2019-09-23 12:00:00,2019-09-23 15:00:00,3.0,3,2,2,"2,4","Machilipatnam, Ongole",0.03147841,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00397,2019-09-23 20:00:00,2019-09-23 21:00:00,1.0,2,2,1,0,Visakhapatnam,0.016028292,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00398,2019-09-24 00:00:00,2019-09-24 02:00:00,2.0,5,3,2,"2,4","Machilipatnam, Ongole",0.033323925,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00399,2019-09-24 13:00:00,2019-09-24 14:00:00,1.0,3,2,2,"2,3","Machilipatnam, Nellore",0.021944983,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00400,2019-09-25 12:00:00,2019-09-25 15:00:00,3.0,2,2,1,3,Nellore,0.016201558,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00401,2019-09-25 14:00:00,2019-09-25 14:00:00,0.0,1,1,1,1,Kakinada,0.014919239,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00402,2019-09-26 06:00:00,2019-09-26 07:00:00,1.0,2,2,1,2,Machilipatnam,0.020746393,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00403,2019-09-26 11:00:00,2019-09-26 12:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.013393219,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00404,2019-09-26 13:00:00,2019-09-26 13:00:00,0.0,1,1,1,3,Nellore,0.016660206,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00405,2019-09-27 12:00:00,2019-09-27 12:00:00,0.0,1,1,1,2,Machilipatnam,0.01429761,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00406,2019-09-28 12:00:00,2019-09-28 14:00:00,2.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.016549133,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00407,2019-10-01 13:00:00,2019-10-01 13:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.016325464,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00408,2019-10-02 11:00:00,2019-10-02 13:00:00,2.0,4,3,2,"3,4","Nellore, Ongole",0.016775113,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00409,2019-10-02 16:00:00,2019-10-02 16:00:00,0.0,1,1,1,0,Visakhapatnam,0.013980301,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00410,2019-10-03 12:00:00,2019-10-03 12:00:00,0.0,1,1,1,0,Visakhapatnam,0.016416188,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00411,2019-10-03 12:00:00,2019-10-03 12:00:00,0.0,1,1,1,3,Nellore,0.033857893,High,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00412,2019-10-03 17:00:00,2019-10-03 17:00:00,0.0,1,1,1,4,Ongole,0.024058081,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00413,2019-10-04 13:00:00,2019-10-04 13:00:00,0.0,1,1,1,2,Machilipatnam,0.01436393,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00414,2019-10-04 17:00:00,2019-10-04 19:00:00,2.0,2,2,2,"3,4","Nellore, Ongole",0.028023079,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00415,2019-10-07 12:00:00,2019-10-07 13:00:00,1.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.017571608,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00416,2019-10-08 03:00:00,2019-10-08 04:00:00,1.0,4,2,2,"0,1","Visakhapatnam, Kakinada",0.03830806,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00417,2019-10-08 11:00:00,2019-10-08 11:00:00,0.0,1,1,1,1,Kakinada,0.013457495,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00418,2019-10-08 12:00:00,2019-10-08 12:00:00,0.0,1,1,1,3,Nellore,0.014291888,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00419,2019-10-09 04:00:00,2019-10-09 04:00:00,0.0,1,1,1,1,Kakinada,0.018253764,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00420,2019-10-09 14:00:00,2019-10-09 14:00:00,0.0,1,1,1,4,Ongole,0.012752045,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00421,2019-10-10 14:00:00,2019-10-10 14:00:00,0.0,1,1,1,4,Ongole,0.015295137,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00422,2019-10-11 12:00:00,2019-10-11 12:00:00,0.0,1,1,1,2,Machilipatnam,0.014666701,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00423,2019-10-13 11:00:00,2019-10-13 12:00:00,1.0,4,2,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.015472893,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00424,2019-10-14 11:00:00,2019-10-14 11:00:00,0.0,1,1,1,4,Ongole,0.013135017,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00425,2019-10-15 12:00:00,2019-10-15 13:00:00,1.0,2,2,2,"3,4","Nellore, Ongole",0.020026531,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00426,2019-10-16 06:00:00,2019-10-16 09:00:00,3.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.018628241,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00427,2019-10-16 11:00:00,2019-10-16 11:00:00,0.0,1,1,1,3,Nellore,0.012919204,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00428,2019-10-16 17:00:00,2019-10-16 17:00:00,0.0,1,1,1,3,Nellore,0.019652477,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00429,2019-10-17 08:00:00,2019-10-17 11:00:00,3.0,13,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.06375978,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00430,2019-10-19 09:00:00,2019-10-19 09:00:00,0.0,1,1,1,2,Machilipatnam,0.017740695,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00431,2019-10-19 19:00:00,2019-10-19 19:00:00,0.0,1,1,1,1,Kakinada,0.013809061,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00432,2019-10-22 08:00:00,2019-10-22 11:00:00,3.0,7,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.023874462,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00433,2019-10-22 12:00:00,2019-10-22 15:00:00,3.0,9,4,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.033699572,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00434,2019-10-22 16:00:00,2019-10-22 16:00:00,0.0,1,1,1,0,Visakhapatnam,0.012606555,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00435,2019-10-22 20:00:00,2019-10-22 23:00:00,3.0,8,4,3,"0,2,4","Visakhapatnam, Machilipatnam, Ongole",0.04231778,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00436,2019-10-23 00:00:00,2019-10-23 03:00:00,3.0,5,4,2,"0,2","Visakhapatnam, Machilipatnam",0.027235193,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00437,2019-10-23 07:00:00,2019-10-23 07:00:00,0.0,1,1,1,2,Machilipatnam,0.01296122,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00438,2019-10-23 13:00:00,2019-10-23 15:00:00,2.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.019629844,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00439,2019-10-23 19:00:00,2019-10-23 22:00:00,3.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.020797363,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00440,2019-10-23 23:00:00,2019-10-24 00:00:00,1.0,3,2,2,"0,2","Visakhapatnam, Machilipatnam",0.023824703,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00441,2019-10-26 02:00:00,2019-10-26 02:00:00,0.0,1,1,1,0,Visakhapatnam,0.017543415,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00442,2019-10-27 02:00:00,2019-10-27 05:00:00,3.0,3,3,2,"2,4","Machilipatnam, Ongole",0.023007048,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00443,2019-10-29 09:00:00,2019-10-29 11:00:00,2.0,3,3,2,"2,3","Machilipatnam, Nellore",0.018220885,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00444,2019-10-29 13:00:00,2019-10-29 13:00:00,0.0,1,1,1,3,Nellore,0.012435878,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00445,2019-10-30 10:00:00,2019-10-30 11:00:00,1.0,2,2,1,2,Machilipatnam,0.013463946,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00446,2019-10-31 02:00:00,2019-10-31 02:00:00,0.0,1,1,1,4,Ongole,0.020183071,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00447,2019-11-07 16:00:00,2019-11-07 16:00:00,0.0,1,1,1,2,Machilipatnam,0.012413592,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00448,2019-11-08 13:00:00,2019-11-08 13:00:00,0.0,1,1,1,1,Kakinada,0.013136941,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00449,2019-11-14 12:00:00,2019-11-14 12:00:00,0.0,1,1,1,4,Ongole,0.022642389,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00450,2019-11-15 06:00:00,2019-11-15 07:00:00,1.0,5,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.047802877,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00451,2019-11-15 11:00:00,2019-11-15 11:00:00,0.0,1,1,1,4,Ongole,0.015121294,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00452,2019-11-17 10:00:00,2019-11-17 12:00:00,2.0,4,3,2,"3,4","Nellore, Ongole",0.020934006,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00453,2019-11-17 14:00:00,2019-11-17 14:00:00,0.0,2,1,2,"3,4","Nellore, Ongole",0.026362319,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00454,2019-11-30 13:00:00,2019-11-30 13:00:00,0.0,1,1,1,3,Nellore,0.013492616,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00455,2019-12-01 13:00:00,2019-12-01 14:00:00,1.0,2,2,2,"3,4","Nellore, Ongole",0.013653414,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00456,2019-12-09 11:00:00,2019-12-09 11:00:00,0.0,1,1,1,3,Nellore,0.015980061,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00457,2019-12-14 09:00:00,2019-12-14 11:00:00,2.0,3,3,1,3,Nellore,0.01739922,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00458,2019-12-15 09:00:00,2019-12-15 09:00:00,0.0,1,1,1,1,Kakinada,0.012539975,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00459,2020-01-01 11:00:00,2020-01-01 12:00:00,1.0,3,2,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.018301278,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00460,2020-01-02 11:00:00,2020-01-02 14:00:00,3.0,5,4,2,"0,2","Visakhapatnam, Machilipatnam",0.027681807,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00461,2020-01-09 08:00:00,2020-01-09 08:00:00,0.0,1,1,1,2,Machilipatnam,0.014858818,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00462,2020-02-04 09:00:00,2020-02-04 11:00:00,2.0,3,3,1,0,Visakhapatnam,0.024500879,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00463,2020-02-09 00:00:00,2020-02-09 00:00:00,0.0,1,1,1,0,Visakhapatnam,0.012359962,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00464,2020-02-09 04:00:00,2020-02-09 04:00:00,0.0,1,1,1,0,Visakhapatnam,0.012502728,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00465,2020-02-09 08:00:00,2020-02-09 09:00:00,1.0,2,2,1,2,Machilipatnam,0.026496615,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00466,2020-02-10 09:00:00,2020-02-10 10:00:00,1.0,2,2,1,2,Machilipatnam,0.041366063,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00467,2020-02-14 10:00:00,2020-02-14 10:00:00,0.0,1,1,1,0,Visakhapatnam,0.0128039075,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00468,2020-03-06 15:00:00,2020-03-06 15:00:00,0.0,1,1,1,0,Visakhapatnam,0.014846387,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00469,2020-03-07 12:00:00,2020-03-07 12:00:00,0.0,1,1,1,4,Ongole,0.018788414,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00470,2020-03-10 07:00:00,2020-03-10 07:00:00,0.0,1,1,1,2,Machilipatnam,0.012853801,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00471,2020-03-19 13:00:00,2020-03-19 16:00:00,3.0,5,4,2,"0,1","Visakhapatnam, Kakinada",0.11349131,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00472,2020-03-19 17:00:00,2020-03-19 17:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.03177882,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00473,2020-03-20 05:00:00,2020-03-20 06:00:00,1.0,2,2,1,1,Kakinada,0.02107383,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00474,2020-04-08 12:00:00,2020-04-08 12:00:00,0.0,1,1,1,2,Machilipatnam,0.027751755,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00475,2020-04-09 10:00:00,2020-04-09 10:00:00,0.0,3,1,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.021327615,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00476,2020-04-25 13:00:00,2020-04-25 13:00:00,0.0,1,1,1,0,Visakhapatnam,0.013986277,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00477,2020-04-27 00:00:00,2020-04-27 01:00:00,1.0,2,2,1,0,Visakhapatnam,0.03381585,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00478,2020-04-27 13:00:00,2020-04-27 13:00:00,0.0,1,1,1,3,Nellore,0.019801818,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00479,2020-04-29 09:00:00,2020-04-29 09:00:00,0.0,1,1,1,2,Machilipatnam,0.012978636,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00480,2020-04-29 13:00:00,2020-04-29 13:00:00,0.0,2,1,2,"2,3","Machilipatnam, Nellore",0.023628691,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00481,2020-05-01 15:00:00,2020-05-01 15:00:00,0.0,1,1,1,1,Kakinada,0.013586122,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00482,2020-05-17 23:00:00,2020-05-17 23:00:00,0.0,1,1,1,2,Machilipatnam,0.014070669,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00483,2020-05-19 05:00:00,2020-05-19 05:00:00,0.0,1,1,1,0,Visakhapatnam,0.013400046,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00484,2020-05-19 13:00:00,2020-05-19 13:00:00,0.0,1,1,1,0,Visakhapatnam,0.01283877,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00485,2020-05-19 17:00:00,2020-05-19 20:00:00,3.0,4,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.022467509,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00486,2020-05-19 21:00:00,2020-05-20 00:00:00,3.0,4,3,2,"1,2","Kakinada, Machilipatnam",0.020909673,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00487,2020-05-20 01:00:00,2020-05-20 04:00:00,3.0,4,4,2,"1,2","Kakinada, Machilipatnam",0.016831541,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00488,2020-05-20 05:00:00,2020-05-20 05:00:00,0.0,1,1,1,2,Machilipatnam,0.02982366,High,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00489,2020-05-20 17:00:00,2020-05-20 20:00:00,3.0,4,4,2,"1,2","Kakinada, Machilipatnam",0.018993167,Moderate,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00490,2020-05-20 23:00:00,2020-05-21 00:00:00,1.0,2,2,2,"2,4","Machilipatnam, Ongole",0.014996573,Low,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00491,2020-05-21 03:00:00,2020-05-21 04:00:00,1.0,2,2,1,0,Visakhapatnam,0.018372418,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00492,2020-05-21 03:00:00,2020-05-21 03:00:00,0.0,1,1,1,4,Ongole,0.017311769,Low,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00493,2020-05-21 18:00:00,2020-05-21 19:00:00,1.0,2,2,1,4,Ongole,0.026583968,High,Humidity,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00494,2020-05-22 01:00:00,2020-05-22 01:00:00,0.0,1,1,1,4,Ongole,0.015502826,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00495,2020-05-22 05:00:00,2020-05-22 05:00:00,0.0,1,1,1,4,Ongole,0.018502038,Moderate,Humidity,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00496,2020-05-22 11:00:00,2020-05-22 11:00:00,0.0,1,1,1,2,Machilipatnam,0.018036587,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00497,2020-05-30 10:00:00,2020-05-30 10:00:00,0.0,1,1,1,2,Machilipatnam,0.01394183,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00498,2020-05-30 14:00:00,2020-05-30 15:00:00,1.0,2,2,2,"0,2","Visakhapatnam, Machilipatnam",0.042254336,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00499,2020-06-01 20:00:00,2020-06-01 20:00:00,0.0,1,1,1,3,Nellore,0.012538914,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00500,2020-06-03 02:00:00,2020-06-03 02:00:00,0.0,1,1,1,2,Machilipatnam,0.018960854,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00501,2020-06-03 11:00:00,2020-06-03 14:00:00,3.0,4,4,1,1,Kakinada,0.031216862,High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00502,2020-06-04 11:00:00,2020-06-04 12:00:00,1.0,4,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.021332705,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00503,2020-06-05 06:00:00,2020-06-05 08:00:00,2.0,2,2,1,1,Kakinada,0.01872051,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00504,2020-06-07 17:00:00,2020-06-07 17:00:00,0.0,1,1,1,3,Nellore,0.012733506,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00505,2020-06-08 21:00:00,2020-06-09 00:00:00,3.0,4,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.01686511,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00506,2020-06-09 05:00:00,2020-06-09 07:00:00,2.0,3,3,1,2,Machilipatnam,0.016600914,Low,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00507,2020-06-09 13:00:00,2020-06-09 13:00:00,0.0,2,1,2,"1,2","Kakinada, Machilipatnam",0.019754762,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00508,2020-06-09 21:00:00,2020-06-09 21:00:00,0.0,1,1,1,2,Machilipatnam,0.01595627,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00509,2020-06-10 01:00:00,2020-06-10 01:00:00,0.0,1,1,1,2,Machilipatnam,0.017773623,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00510,2020-06-10 05:00:00,2020-06-10 05:00:00,0.0,1,1,1,0,Visakhapatnam,0.032015607,High,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00511,2020-06-10 05:00:00,2020-06-10 05:00:00,0.0,1,1,1,4,Ongole,0.013953703,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00512,2020-06-10 13:00:00,2020-06-10 15:00:00,2.0,4,3,2,"0,1","Visakhapatnam, Kakinada",0.027694235,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00513,2020-06-10 17:00:00,2020-06-10 20:00:00,3.0,10,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.045921285,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00514,2020-06-10 21:00:00,2020-06-11 00:00:00,3.0,9,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.038282752,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00515,2020-06-11 01:00:00,2020-06-11 03:00:00,2.0,6,3,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.060849722,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00516,2020-06-11 09:00:00,2020-06-11 09:00:00,0.0,1,1,1,0,Visakhapatnam,0.015333025,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00517,2020-06-11 18:00:00,2020-06-11 20:00:00,2.0,5,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.032113664,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00518,2020-06-12 09:00:00,2020-06-12 11:00:00,2.0,7,3,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.035157785,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00519,2020-06-17 17:00:00,2020-06-17 17:00:00,0.0,1,1,1,3,Nellore,0.012347629,Low,Temperature,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00520,2020-06-20 15:00:00,2020-06-20 15:00:00,0.0,1,1,1,2,Machilipatnam,0.017851602,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00521,2020-06-21 13:00:00,2020-06-21 14:00:00,1.0,2,2,1,2,Machilipatnam,0.022773793,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00522,2020-06-24 13:00:00,2020-06-24 15:00:00,2.0,5,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.022810241,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00523,2020-06-25 12:00:00,2020-06-25 12:00:00,0.0,1,1,1,3,Nellore,0.026090361,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00524,2020-06-26 13:00:00,2020-06-26 13:00:00,0.0,1,1,1,3,Nellore,0.016620029,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00525,2020-06-27 13:00:00,2020-06-27 13:00:00,0.0,1,1,1,3,Nellore,0.020777702,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00526,2020-06-28 21:00:00,2020-06-28 21:00:00,0.0,3,1,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.02812107,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00527,2020-06-29 04:00:00,2020-06-29 04:00:00,0.0,1,1,1,4,Ongole,0.018668454,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00528,2020-06-29 13:00:00,2020-06-29 15:00:00,2.0,3,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.018737385,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00529,2020-06-29 21:00:00,2020-06-30 00:00:00,3.0,7,4,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.024880309,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00530,2020-06-30 01:00:00,2020-06-30 01:00:00,0.0,1,1,1,2,Machilipatnam,0.014345833,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00531,2020-06-30 20:00:00,2020-06-30 21:00:00,1.0,5,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.024475753,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00532,2020-07-02 03:00:00,2020-07-02 03:00:00,0.0,1,1,1,2,Machilipatnam,0.014668848,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00533,2020-07-02 14:00:00,2020-07-02 14:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.02338942,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00534,2020-07-03 20:00:00,2020-07-03 22:00:00,2.0,5,3,2,"1,2","Kakinada, Machilipatnam",0.02074663,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00535,2020-07-04 00:00:00,2020-07-04 03:00:00,3.0,2,2,1,0,Visakhapatnam,0.015268488,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00536,2020-07-04 04:00:00,2020-07-04 07:00:00,3.0,3,3,2,"0,1","Visakhapatnam, Kakinada",0.020359963,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00537,2020-07-04 11:00:00,2020-07-04 11:00:00,0.0,1,1,1,0,Visakhapatnam,0.025449684,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00538,2020-07-08 15:00:00,2020-07-08 15:00:00,0.0,1,1,1,1,Kakinada,0.01314627,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00539,2020-07-08 21:00:00,2020-07-08 22:00:00,1.0,2,2,1,2,Machilipatnam,0.031810723,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00540,2020-07-09 01:00:00,2020-07-09 03:00:00,2.0,4,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.016972817,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00541,2020-07-12 14:00:00,2020-07-12 17:00:00,3.0,3,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.015999714,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00542,2020-07-13 15:00:00,2020-07-13 15:00:00,0.0,2,1,2,"2,4","Machilipatnam, Ongole",0.020845853,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00543,2020-07-13 20:00:00,2020-07-13 20:00:00,0.0,1,1,1,4,Ongole,0.013008822,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00544,2020-07-18 13:00:00,2020-07-18 15:00:00,2.0,3,2,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.017548745,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00545,2020-07-19 13:00:00,2020-07-19 14:00:00,1.0,4,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.020686658,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00546,2020-07-20 14:00:00,2020-07-20 14:00:00,0.0,1,1,1,4,Ongole,0.014154201,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00547,2020-07-23 12:00:00,2020-07-23 13:00:00,1.0,3,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.014792123,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00548,2020-07-23 19:00:00,2020-07-23 19:00:00,0.0,1,1,1,3,Nellore,0.01543463,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00549,2020-07-24 14:00:00,2020-07-24 14:00:00,0.0,1,1,1,1,Kakinada,0.013054275,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00550,2020-07-25 15:00:00,2020-07-25 15:00:00,0.0,1,1,1,4,Ongole,0.013073971,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00551,2020-07-26 02:00:00,2020-07-26 02:00:00,0.0,1,1,1,2,Machilipatnam,0.015378586,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00552,2020-07-26 09:00:00,2020-07-26 09:00:00,0.0,1,1,1,2,Machilipatnam,0.014203839,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00553,2020-07-27 14:00:00,2020-07-27 14:00:00,0.0,1,1,1,1,Kakinada,0.0126789035,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00554,2020-07-27 21:00:00,2020-07-27 21:00:00,0.0,1,1,1,3,Nellore,0.023806928,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00555,2020-07-28 04:00:00,2020-07-28 04:00:00,0.0,1,1,1,2,Machilipatnam,0.014059609,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00556,2020-07-28 13:00:00,2020-07-28 15:00:00,2.0,7,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.05947846,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00557,2020-07-28 17:00:00,2020-07-28 20:00:00,3.0,4,3,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.026955,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00558,2020-07-28 21:00:00,2020-07-29 00:00:00,3.0,5,4,2,"2,4","Machilipatnam, Ongole",0.016862895,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00559,2020-07-29 01:00:00,2020-07-29 04:00:00,3.0,2,2,1,3,Nellore,0.018729845,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00560,2020-07-29 04:00:00,2020-07-29 05:00:00,1.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.020344088,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00561,2020-07-29 12:00:00,2020-07-29 15:00:00,3.0,5,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.029909963,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00562,2020-07-30 14:00:00,2020-07-30 15:00:00,1.0,3,2,2,"3,4","Nellore, Ongole",0.03834647,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00563,2020-07-30 23:00:00,2020-07-30 23:00:00,0.0,1,1,1,2,Machilipatnam,0.013795514,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00564,2020-07-31 14:00:00,2020-07-31 14:00:00,0.0,3,1,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.044501316,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00565,2020-07-31 21:00:00,2020-08-01 00:00:00,3.0,7,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.04240325,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00566,2020-08-01 05:00:00,2020-08-01 05:00:00,0.0,1,1,1,0,Visakhapatnam,0.015957208,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00567,2020-08-01 14:00:00,2020-08-01 14:00:00,0.0,1,1,1,2,Machilipatnam,0.01378555,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00568,2020-08-02 18:00:00,2020-08-02 18:00:00,0.0,1,1,1,3,Nellore,0.012301328,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00569,2020-08-04 14:00:00,2020-08-04 14:00:00,0.0,1,1,1,1,Kakinada,0.020599386,Moderate,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00570,2020-08-05 15:00:00,2020-08-05 17:00:00,2.0,5,3,2,"2,4","Machilipatnam, Ongole",0.019479338,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00571,2020-08-07 14:00:00,2020-08-07 14:00:00,0.0,1,1,1,3,Nellore,0.012517643,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00572,2020-08-09 00:00:00,2020-08-09 00:00:00,0.0,1,1,1,2,Machilipatnam,0.014703157,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00573,2020-08-10 04:00:00,2020-08-10 04:00:00,0.0,1,1,1,2,Machilipatnam,0.024005663,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00574,2020-08-13 01:00:00,2020-08-13 04:00:00,3.0,3,3,1,0,Visakhapatnam,0.01700074,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00575,2020-08-13 05:00:00,2020-08-13 07:00:00,2.0,2,2,1,0,Visakhapatnam,0.016599843,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00576,2020-08-13 18:00:00,2020-08-13 21:00:00,3.0,6,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.022649359,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00577,2020-08-14 04:00:00,2020-08-14 05:00:00,1.0,2,2,1,0,Visakhapatnam,0.013536624,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00578,2020-08-15 01:00:00,2020-08-15 01:00:00,0.0,1,1,1,2,Machilipatnam,0.014382272,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00579,2020-08-15 19:00:00,2020-08-15 22:00:00,3.0,4,4,1,1,Kakinada,0.021001317,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00580,2020-08-16 09:00:00,2020-08-16 09:00:00,0.0,1,1,1,1,Kakinada,0.013387375,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00581,2020-08-17 08:00:00,2020-08-17 10:00:00,2.0,2,2,1,0,Visakhapatnam,0.016764347,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00582,2020-08-19 14:00:00,2020-08-19 14:00:00,0.0,1,1,1,0,Visakhapatnam,0.0124248015,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00583,2020-08-20 06:00:00,2020-08-20 09:00:00,3.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.014764756,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00584,2020-08-23 15:00:00,2020-08-23 15:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.012835591,Low,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00585,2020-08-31 16:00:00,2020-08-31 16:00:00,0.0,1,1,1,2,Machilipatnam,0.014411135,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00586,2020-09-01 11:00:00,2020-09-01 12:00:00,1.0,4,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.022889303,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00587,2020-09-01 15:00:00,2020-09-01 17:00:00,2.0,5,3,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.11311109,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00588,2020-09-02 00:00:00,2020-09-02 00:00:00,0.0,1,1,1,3,Nellore,0.025072765,High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00589,2020-09-02 05:00:00,2020-09-02 05:00:00,0.0,1,1,1,3,Nellore,0.014196125,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00590,2020-09-02 11:00:00,2020-09-02 14:00:00,3.0,13,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.040666148,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00591,2020-09-02 15:00:00,2020-09-02 17:00:00,2.0,7,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.02280449,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00592,2020-09-02 23:00:00,2020-09-02 23:00:00,0.0,1,1,1,4,Ongole,0.014140174,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00593,2020-09-09 13:00:00,2020-09-09 13:00:00,0.0,1,1,1,3,Nellore,0.014086542,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00594,2020-09-10 13:00:00,2020-09-10 13:00:00,0.0,3,1,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.034314558,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00595,2020-09-11 23:00:00,2020-09-12 01:00:00,2.0,3,3,2,"1,2","Kakinada, Machilipatnam",0.06634535,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00596,2020-09-12 03:00:00,2020-09-12 03:00:00,0.0,1,1,1,3,Nellore,0.015449824,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00597,2020-09-12 09:00:00,2020-09-12 12:00:00,3.0,3,3,1,0,Visakhapatnam,0.026165368,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00598,2020-09-12 13:00:00,2020-09-12 16:00:00,3.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.030802298,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00599,2020-09-12 18:00:00,2020-09-12 21:00:00,3.0,12,4,4,"0,1,2,3","Visakhapatnam, Kakinada, Machilipatnam, Nellore",0.040109668,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00600,2020-09-12 22:00:00,2020-09-13 00:00:00,2.0,3,3,2,"2,3","Machilipatnam, Nellore",0.016249785,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00601,2020-09-13 02:00:00,2020-09-13 05:00:00,3.0,4,4,1,2,Machilipatnam,0.05141622,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00602,2020-09-13 13:00:00,2020-09-13 16:00:00,3.0,9,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.049284622,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00603,2020-09-13 18:00:00,2020-09-13 21:00:00,3.0,4,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.03170293,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00604,2020-09-13 22:00:00,2020-09-14 01:00:00,3.0,5,4,2,"2,4","Machilipatnam, Ongole",0.049776696,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00605,2020-09-14 02:00:00,2020-09-14 05:00:00,3.0,3,2,3,"1,2,3","Kakinada, Machilipatnam, Nellore",0.025869984,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00606,2020-09-14 06:00:00,2020-09-14 08:00:00,2.0,4,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.019782541,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00607,2020-09-14 10:00:00,2020-09-14 11:00:00,1.0,5,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.025312249,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00608,2020-09-14 14:00:00,2020-09-14 17:00:00,3.0,11,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.057462253,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00609,2020-09-14 23:00:00,2020-09-15 02:00:00,3.0,3,3,2,"2,4","Machilipatnam, Ongole",0.025409512,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00610,2020-09-15 05:00:00,2020-09-15 07:00:00,2.0,4,3,2,"1,2","Kakinada, Machilipatnam",0.035370722,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00611,2020-09-15 09:00:00,2020-09-15 10:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.01948761,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00612,2020-09-15 22:00:00,2020-09-16 00:00:00,2.0,7,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.026894355,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00613,2020-09-16 03:00:00,2020-09-16 03:00:00,0.0,2,1,2,"0,2","Visakhapatnam, Machilipatnam",0.04532189,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00614,2020-09-16 17:00:00,2020-09-16 17:00:00,0.0,1,1,1,3,Nellore,0.0133865625,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00615,2020-09-18 14:00:00,2020-09-18 17:00:00,3.0,3,2,2,"1,2","Kakinada, Machilipatnam",0.022913964,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00616,2020-09-18 19:00:00,2020-09-18 20:00:00,1.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.016547296,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00617,2020-09-18 23:00:00,2020-09-19 02:00:00,3.0,6,3,4,"0,2,3,4","Visakhapatnam, Machilipatnam, Nellore, Ongole",0.017474242,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00618,2020-09-19 03:00:00,2020-09-19 06:00:00,3.0,6,4,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.041181702,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00619,2020-09-19 15:00:00,2020-09-19 18:00:00,3.0,5,3,2,"0,1","Visakhapatnam, Kakinada",0.021269899,Moderate,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00620,2020-09-19 19:00:00,2020-09-19 22:00:00,3.0,3,3,2,"1,2","Kakinada, Machilipatnam",0.022358228,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00621,2020-09-20 12:00:00,2020-09-20 14:00:00,2.0,6,3,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.065326184,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00622,2020-09-20 17:00:00,2020-09-20 18:00:00,1.0,2,2,1,1,Kakinada,0.015542603,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00623,2020-09-20 21:00:00,2020-09-21 00:00:00,3.0,2,2,1,0,Visakhapatnam,0.015591122,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00624,2020-09-21 02:00:00,2020-09-21 02:00:00,0.0,1,1,1,2,Machilipatnam,0.014790257,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00625,2020-09-25 13:00:00,2020-09-25 15:00:00,2.0,4,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.021216476,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00626,2020-09-25 17:00:00,2020-09-25 19:00:00,2.0,4,3,3,"1,2,3","Kakinada, Machilipatnam, Nellore",0.020037938,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00627,2020-09-25 23:00:00,2020-09-26 02:00:00,3.0,6,4,2,"1,2","Kakinada, Machilipatnam",0.034308735,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00628,2020-09-26 03:00:00,2020-09-26 06:00:00,3.0,10,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.08098377,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00629,2020-09-27 14:00:00,2020-09-27 14:00:00,0.0,2,1,2,"3,4","Nellore, Ongole",0.02461942,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00630,2020-09-28 14:00:00,2020-09-28 14:00:00,0.0,2,1,2,"0,1","Visakhapatnam, Kakinada",0.015012192,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00631,2020-09-29 14:00:00,2020-09-29 15:00:00,1.0,5,2,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.035112806,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00632,2020-09-29 23:00:00,2020-09-30 02:00:00,3.0,3,3,2,"2,3","Machilipatnam, Nellore",0.03302738,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00633,2020-09-30 04:00:00,2020-09-30 07:00:00,3.0,4,4,2,"0,2","Visakhapatnam, Machilipatnam",0.018484253,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00634,2020-09-30 08:00:00,2020-09-30 08:00:00,0.0,1,1,1,0,Visakhapatnam,0.014948677,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00635,2020-09-30 21:00:00,2020-10-01 00:00:00,3.0,4,4,1,0,Visakhapatnam,0.038312398,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00636,2020-09-30 22:00:00,2020-09-30 22:00:00,0.0,1,1,1,3,Nellore,0.024330089,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00637,2020-10-01 16:00:00,2020-10-01 16:00:00,0.0,1,1,1,0,Visakhapatnam,0.021279331,Moderate,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00638,2020-10-02 17:00:00,2020-10-02 18:00:00,1.0,2,2,2,"1,2","Kakinada, Machilipatnam",0.019586194,Moderate,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00639,2020-10-03 13:00:00,2020-10-03 13:00:00,0.0,1,1,1,0,Visakhapatnam,0.029908992,High,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00640,2020-10-04 01:00:00,2020-10-04 01:00:00,0.0,1,1,1,0,Visakhapatnam,0.018902384,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00641,2020-10-04 13:00:00,2020-10-04 16:00:00,3.0,3,2,2,"0,1","Visakhapatnam, Kakinada",0.039385818,Very High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00642,2020-10-05 12:00:00,2020-10-05 13:00:00,1.0,4,2,2,"0,1","Visakhapatnam, Kakinada",0.028917342,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00643,2020-10-06 13:00:00,2020-10-06 13:00:00,0.0,1,1,1,2,Machilipatnam,0.012371567,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00644,2020-10-07 02:00:00,2020-10-07 02:00:00,0.0,1,1,1,2,Machilipatnam,0.0515849,Very High,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00645,2020-10-07 15:00:00,2020-10-07 15:00:00,0.0,1,1,1,2,Machilipatnam,0.016384678,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00646,2020-10-09 11:00:00,2020-10-09 11:00:00,0.0,1,1,1,0,Visakhapatnam,0.015943693,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00647,2020-10-10 15:00:00,2020-10-10 18:00:00,3.0,6,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.022996698,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00648,2020-10-10 19:00:00,2020-10-10 19:00:00,0.0,1,1,1,0,Visakhapatnam,0.015973283,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00649,2020-10-11 04:00:00,2020-10-11 04:00:00,0.0,1,1,1,4,Ongole,0.012480985,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00650,2020-10-11 10:00:00,2020-10-11 13:00:00,3.0,11,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.033359125,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00651,2020-10-11 14:00:00,2020-10-11 17:00:00,3.0,15,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.039789334,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00652,2020-10-11 18:00:00,2020-10-11 21:00:00,3.0,4,3,2,"1,2","Kakinada, Machilipatnam",0.022101536,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00653,2020-10-11 23:00:00,2020-10-12 02:00:00,3.0,3,3,1,0,Visakhapatnam,0.02510567,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00654,2020-10-12 03:00:00,2020-10-12 03:00:00,0.0,1,1,1,0,Visakhapatnam,0.020902788,Moderate,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00655,2020-10-12 11:00:00,2020-10-12 14:00:00,3.0,7,4,2,"0,1","Visakhapatnam, Kakinada",0.04891454,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00656,2020-10-12 15:00:00,2020-10-12 18:00:00,3.0,7,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.05637208,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00657,2020-10-12 19:00:00,2020-10-12 22:00:00,3.0,12,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.09462885,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00658,2020-10-12 23:00:00,2020-10-13 02:00:00,3.0,19,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.31392094,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00659,2020-10-13 03:00:00,2020-10-13 06:00:00,3.0,16,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.28534725,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00660,2020-10-13 07:00:00,2020-10-13 10:00:00,3.0,7,4,2,"1,2","Kakinada, Machilipatnam",0.09105535,Very High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00661,2020-10-13 11:00:00,2020-10-13 14:00:00,3.0,3,2,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.021103665,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00662,2020-10-14 03:00:00,2020-10-14 06:00:00,3.0,6,4,2,"0,2","Visakhapatnam, Machilipatnam",0.025472369,High,Atmospheric pressure,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00663,2020-10-14 13:00:00,2020-10-14 13:00:00,0.0,1,1,1,0,Visakhapatnam,0.01681799,Low,Atmospheric pressure,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00664,2020-10-15 01:00:00,2020-10-15 04:00:00,3.0,12,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.050622888,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00665,2020-10-15 05:00:00,2020-10-15 05:00:00,0.0,3,1,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.017574409,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00666,2020-10-15 12:00:00,2020-10-15 14:00:00,2.0,2,2,2,"2,3","Machilipatnam, Nellore",0.015781254,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00667,2020-10-16 04:00:00,2020-10-16 04:00:00,0.0,1,1,1,2,Machilipatnam,0.020328853,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00668,2020-10-16 11:00:00,2020-10-16 13:00:00,2.0,7,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.06770568,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00669,2020-10-16 15:00:00,2020-10-16 17:00:00,2.0,6,3,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.028788611,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00670,2020-10-17 03:00:00,2020-10-17 05:00:00,2.0,2,2,2,"3,4","Nellore, Ongole",0.016265849,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00671,2020-10-17 11:00:00,2020-10-17 14:00:00,3.0,8,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.08649305,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00672,2020-10-17 15:00:00,2020-10-17 15:00:00,0.0,2,1,2,"2,3","Machilipatnam, Nellore",0.021265388,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00673,2020-10-18 02:00:00,2020-10-18 03:00:00,1.0,3,2,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.025909057,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00674,2020-10-18 11:00:00,2020-10-18 12:00:00,1.0,2,2,2,"0,1","Visakhapatnam, Kakinada",0.013989133,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00675,2020-10-18 11:00:00,2020-10-18 14:00:00,3.0,4,3,2,"3,4","Nellore, Ongole",0.028203413,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00676,2020-10-18 15:00:00,2020-10-18 15:00:00,0.0,1,1,1,3,Nellore,0.013212947,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00677,2020-10-19 12:00:00,2020-10-19 15:00:00,3.0,13,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.08283201,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00678,2020-10-19 16:00:00,2020-10-19 19:00:00,3.0,8,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.039728515,Very High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00679,2020-10-19 20:00:00,2020-10-19 23:00:00,3.0,7,4,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.060384028,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00680,2020-10-20 00:00:00,2020-10-20 03:00:00,3.0,8,4,3,"2,3,4","Machilipatnam, Nellore, Ongole",0.027180767,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00681,2020-10-20 04:00:00,2020-10-20 07:00:00,3.0,2,2,2,"2,3","Machilipatnam, Nellore",0.016000204,Low,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00682,2020-10-20 08:00:00,2020-10-20 11:00:00,3.0,10,4,4,"0,1,2,4","Visakhapatnam, Kakinada, Machilipatnam, Ongole",0.019744754,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00683,2020-10-20 12:00:00,2020-10-20 15:00:00,3.0,11,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.024163306,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00684,2020-10-20 16:00:00,2020-10-20 16:00:00,0.0,1,1,1,1,Kakinada,0.012524207,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00685,2020-10-21 06:00:00,2020-10-21 08:00:00,2.0,6,3,2,"3,4","Nellore, Ongole",0.017840413,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00686,2020-10-21 12:00:00,2020-10-21 15:00:00,3.0,3,2,3,"1,2,3","Kakinada, Machilipatnam, Nellore",0.030870132,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00687,2020-10-23 15:00:00,2020-10-23 15:00:00,0.0,1,1,1,3,Nellore,0.013775663,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00688,2020-10-27 14:00:00,2020-10-27 14:00:00,0.0,1,1,1,4,Ongole,0.018933304,Moderate,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00689,2020-10-28 12:00:00,2020-10-28 15:00:00,3.0,2,2,2,"3,4","Nellore, Ongole",0.02138482,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00690,2020-10-30 16:00:00,2020-10-30 16:00:00,0.0,1,1,1,2,Machilipatnam,0.013063007,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00691,2020-11-02 14:00:00,2020-11-02 15:00:00,1.0,2,2,1,2,Machilipatnam,0.016019482,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00692,2020-11-04 12:00:00,2020-11-04 13:00:00,1.0,2,2,2,"2,4","Machilipatnam, Ongole",0.0144340545,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00693,2020-11-05 02:00:00,2020-11-05 02:00:00,0.0,1,1,1,4,Ongole,0.014393343,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00694,2020-11-06 07:00:00,2020-11-06 09:00:00,2.0,2,2,1,2,Machilipatnam,0.017472366,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00695,2020-11-11 14:00:00,2020-11-11 15:00:00,1.0,3,2,2,"1,2","Kakinada, Machilipatnam",0.019425943,Moderate,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00696,2020-11-11 23:00:00,2020-11-11 23:00:00,0.0,1,1,1,1,Kakinada,0.012362735,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00697,2020-11-12 10:00:00,2020-11-12 13:00:00,3.0,2,2,1,1,Kakinada,0.017416416,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00698,2020-11-12 12:00:00,2020-11-12 14:00:00,2.0,2,2,2,"3,4","Nellore, Ongole",0.014936985,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00699,2020-11-12 14:00:00,2020-11-12 14:00:00,0.0,1,1,1,1,Kakinada,0.017479308,Low,Wind gusts,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00700,2020-11-13 09:00:00,2020-11-13 09:00:00,0.0,1,1,1,3,Nellore,0.015693663,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00701,2020-11-15 09:00:00,2020-11-15 11:00:00,2.0,3,3,2,"2,4","Machilipatnam, Ongole",0.016894765,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00702,2020-11-15 13:00:00,2020-11-15 15:00:00,2.0,2,2,1,4,Ongole,0.014957701,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00703,2020-11-16 05:00:00,2020-11-16 05:00:00,0.0,2,1,2,"3,4","Nellore, Ongole",0.023997847,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00704,2020-11-16 14:00:00,2020-11-16 14:00:00,0.0,1,1,1,4,Ongole,0.018644325,Moderate,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00705,2020-11-17 16:00:00,2020-11-17 16:00:00,0.0,1,1,1,3,Nellore,0.014733548,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00706,2020-11-21 10:00:00,2020-11-21 10:00:00,0.0,1,1,1,0,Visakhapatnam,0.015692916,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00707,2020-11-24 13:00:00,2020-11-24 13:00:00,0.0,1,1,1,1,Kakinada,0.01315429,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00708,2020-11-25 08:00:00,2020-11-25 11:00:00,3.0,6,4,2,"0,1","Visakhapatnam, Kakinada",0.027521685,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00709,2020-11-25 09:00:00,2020-11-25 12:00:00,3.0,4,3,2,"3,4","Nellore, Ongole",0.025509873,High,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00710,2020-11-25 12:00:00,2020-11-25 15:00:00,3.0,7,4,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.026055794,High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00711,2020-11-25 16:00:00,2020-11-25 19:00:00,3.0,6,4,4,"1,2,3,4","Kakinada, Machilipatnam, Nellore, Ongole",0.027158346,High,Wind gusts,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00712,2020-11-25 20:00:00,2020-11-25 23:00:00,3.0,3,3,1,3,Nellore,0.027175263,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00713,2020-11-25 23:00:00,2020-11-26 02:00:00,3.0,9,4,4,"0,2,3,4","Visakhapatnam, Machilipatnam, Nellore, Ongole",0.021460127,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00714,2020-11-26 03:00:00,2020-11-26 06:00:00,3.0,7,4,3,"0,2,3","Visakhapatnam, Machilipatnam, Nellore",0.03385993,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00715,2020-11-26 07:00:00,2020-11-26 10:00:00,3.0,15,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.069779724,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00716,2020-11-26 11:00:00,2020-11-26 14:00:00,3.0,15,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.23096803,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00717,2020-11-26 15:00:00,2020-11-26 18:00:00,3.0,15,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.077097334,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00718,2020-11-26 19:00:00,2020-11-26 22:00:00,3.0,15,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.062216192,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00719,2020-11-26 23:00:00,2020-11-27 02:00:00,3.0,4,4,1,0,Visakhapatnam,0.054744426,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00720,2020-11-26 23:00:00,2020-11-27 02:00:00,3.0,5,4,2,"3,4","Nellore, Ongole",0.07132022,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00721,2020-11-27 03:00:00,2020-11-27 05:00:00,2.0,10,3,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.040650323,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00722,2020-11-27 07:00:00,2020-11-27 10:00:00,3.0,7,4,3,"1,2,4","Kakinada, Machilipatnam, Ongole",0.03365785,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00723,2020-11-27 11:00:00,2020-11-27 14:00:00,3.0,13,4,5,"0,1,2,3,4","Visakhapatnam, Kakinada, Machilipatnam, Nellore, Ongole",0.09462287,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00724,2020-11-27 15:00:00,2020-11-27 18:00:00,3.0,9,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.0450423,Very High,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00725,2020-11-27 19:00:00,2020-11-27 22:00:00,3.0,6,4,2,"0,1","Visakhapatnam, Kakinada",0.069227315,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00726,2020-11-27 23:00:00,2020-11-28 02:00:00,3.0,10,4,3,"0,1,2","Visakhapatnam, Kakinada, Machilipatnam",0.076195404,Very High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00727,2020-11-28 03:00:00,2020-11-28 06:00:00,3.0,5,4,2,"0,1","Visakhapatnam, Kakinada",0.031275123,High,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00728,2020-11-28 07:00:00,2020-11-28 08:00:00,1.0,2,2,1,1,Kakinada,0.019136578,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00729,2020-11-28 19:00:00,2020-11-28 20:00:00,1.0,2,2,1,2,Machilipatnam,0.02110679,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00730,2020-11-29 14:00:00,2020-11-29 15:00:00,1.0,2,2,1,3,Nellore,0.02039111,Moderate,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00731,2020-12-03 11:00:00,2020-12-03 11:00:00,0.0,1,1,1,4,Ongole,0.017660845,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00732,2020-12-03 15:00:00,2020-12-03 17:00:00,2.0,4,3,2,"3,4","Nellore, Ongole",0.023093611,Moderate,Wind direction,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00733,2020-12-04 11:00:00,2020-12-04 12:00:00,1.0,2,2,1,3,Nellore,0.01736708,Low,Rainfall,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00734,2020-12-05 05:00:00,2020-12-05 05:00:00,0.0,1,1,1,3,Nellore,0.015442895,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00735,2020-12-05 12:00:00,2020-12-05 13:00:00,1.0,2,2,1,3,Nellore,0.016129805,Low,Wind speed,Multi-record candidate event,Historical candidate,Unclassified weather anomaly
+EVT_00736,2020-12-06 09:00:00,2020-12-06 09:00:00,0.0,1,1,1,4,Ongole,0.0127004925,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00737,2020-12-06 15:00:00,2020-12-06 15:00:00,0.0,1,1,1,3,Nellore,0.015860075,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00738,2020-12-07 17:00:00,2020-12-07 17:00:00,0.0,1,1,1,4,Ongole,0.013645914,Low,Wind direction,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00739,2020-12-08 09:00:00,2020-12-08 09:00:00,0.0,1,1,1,3,Nellore,0.01290535,Low,Rainfall,Isolated detection,Historical candidate,Unclassified weather anomaly
+EVT_00740,2020-12-11 10:00:00,2020-12-11 10:00:00,0.0,1,1,1,0,Visakhapatnam,0.013128811,Low,Wind speed,Isolated detection,Historical candidate,Unclassified weather anomaly

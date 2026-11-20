@@ -1,0 +1,6 @@
+location_id,location_name,time,temperature_2m_c,relative_humidity_2m_pct,precipitation_mm,wind_speed_10m_kmh,wind_direction_10m_deg,pressure_msl_hpa,wind_gusts_10m_kmh
+0,Visakhapatnam,2026-11-18T14:30,28.6,49,0.0,21.6,39,1011.5,51.8
+1,Kakinada,2026-11-18T14:30,30.0,48,0.0,20.2,51,1011.1,46.4
+2,Machilipatnam,2026-11-18T14:30,30.2,49,0.0,12.3,30,1011.0,28.4
+3,Nellore,2026-11-18T14:30,30.3,39,0.0,18.1,19,1011.1,40.0
+4,Ongole,2026-11-18T14:30,32.5,32,0.0,11.0,10,1010.9,25.6

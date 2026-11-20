@@ -1,0 +1,5 @@
+{
+    "threshold": -0.08731636717171865,
+    "validation_percentile": 1.0,
+    "description": "Observations with decision_function scores at or below this value are flagged."
+}

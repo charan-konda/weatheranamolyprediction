@@ -1,0 +1,6 @@
+location_id,location_name,time,if_anomaly_score,if_anomaly,if_status
+0,Visakhapatnam,2026-11-18 14:30:00,-0.07669327102009604,0,Normal
+1,Kakinada,2026-11-18 14:30:00,-0.04168699728048941,0,Normal
+2,Machilipatnam,2026-11-18 14:30:00,0.008187021525338567,0,Normal
+3,Nellore,2026-11-18 14:30:00,-0.06765304957914009,0,Normal
+4,Ongole,2026-11-18 14:30:00,-0.04667757419151153,0,Normal

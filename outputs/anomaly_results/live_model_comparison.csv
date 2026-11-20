@@ -1,0 +1,6 @@
+location_id,location_name,time,gnn_anomaly_score,gnn_anomaly,gnn_status,if_anomaly_score,if_anomaly,if_status,agreement,combined_status
+0,Visakhapatnam,2026-11-18 14:30:00,0.0037714373,0,Normal,-0.07669327102009604,0,Normal,Agree,Normal
+1,Kakinada,2026-11-18 14:30:00,0.0016462153,0,Normal,-0.04168699728048941,0,Normal,Agree,Normal
+2,Machilipatnam,2026-11-18 14:30:00,0.0066248225,0,Normal,0.008187021525338567,0,Normal,Agree,Normal
+3,Nellore,2026-11-18 14:30:00,0.0011722248,0,Normal,-0.06765304957914009,0,Normal,Agree,Normal
+4,Ongole,2026-11-18 14:30:00,0.0052051945,0,Normal,-0.04667757419151153,0,Normal,Agree,Normal

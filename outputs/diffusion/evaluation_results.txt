@@ -1,0 +1,4 @@
+Conditional Diffusion Evaluation
+MAE: 0.031097
+RMSE: 0.047290
+Coarse consistency MAE: 0.014633

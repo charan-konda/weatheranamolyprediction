@@ -1,0 +1,10 @@
+{
+    "test_records": 19730,
+    "isolation_forest_anomalies": 754,
+    "gnn_anomalies": 784,
+    "both_detected": 394,
+    "isolation_forest_only": 360,
+    "gnn_only": 390,
+    "both_normal": 18586,
+    "agreement_percentage": 96.2
+}

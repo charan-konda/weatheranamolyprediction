@@ -1,0 +1,106 @@
+[
+    {
+        "city": "Hyderabad",
+        "country": "India",
+        "admin1": "Telangana",
+        "latitude": 17.38405,
+        "longitude": 78.45636,
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "city": "Mumbai",
+        "country": "India",
+        "admin1": "Maharashtra",
+        "latitude": 19.07283,
+        "longitude": 72.88261,
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "city": "Delhi",
+        "country": "India",
+        "admin1": "National Capital Territory of Delhi",
+        "latitude": 28.65195,
+        "longitude": 77.23149,
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "admin1": "Tokyo",
+        "latitude": 35.6895,
+        "longitude": 139.69171,
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "admin1": "England",
+        "latitude": 51.50853,
+        "longitude": -0.12574,
+        "timezone": "Europe/London"
+    },
+    {
+        "city": "New York",
+        "country": "United States",
+        "admin1": "New York",
+        "latitude": 40.71427,
+        "longitude": -74.00597,
+        "timezone": "America/New_York"
+    },
+    {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "admin1": "São Paulo",
+        "latitude": -23.5475,
+        "longitude": -46.63611,
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "city": "Cairo",
+        "country": "Egypt",
+        "admin1": "Cairo Governorate",
+        "latitude": 30.06263,
+        "longitude": 31.24967,
+        "timezone": "Africa/Cairo"
+    },
+    {
+        "city": "Sydney",
+        "country": "Australia",
+        "admin1": "New South Wales",
+        "latitude": -33.86785,
+        "longitude": 151.20732,
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "city": "Darsi",
+        "country": "India",
+        "admin1": "Andhra Pradesh",
+        "latitude": 15.76978,
+        "longitude": 79.67939,
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "city": "Tirupati",
+        "country": "India",
+        "admin1": "Andhra Pradesh",
+        "latitude": 13.63551,
+        "longitude": 79.41989,
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "city": "Kurnool",
+        "country": "India",
+        "admin1": "Andhra Pradesh",
+        "latitude": 15.82887,
+        "longitude": 78.03602,
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "city": "Guntur",
+        "country": "India",
+        "admin1": "Andhra Pradesh",
+        "latitude": 16.29974,
+        "longitude": 80.45729,
+        "timezone": "Asia/Kolkata"
+    }
+]

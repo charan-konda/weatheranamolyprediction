@@ -1,0 +1,7 @@
+{
+    "threshold": 0.007392348255962133,
+    "validation_percentile": 99,
+    "score_type": "latest_hour_node_reconstruction_mse",
+    "sequence_length_hours": 24,
+    "model_type": "SpatioTemporalGraphAutoencoder"
+}

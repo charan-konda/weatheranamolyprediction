@@ -1,0 +1,5 @@
+{
+    "threshold": 0.012261779978871346,
+    "validation_percentile": 99,
+    "score_type": "node_reconstruction_mse"
+}

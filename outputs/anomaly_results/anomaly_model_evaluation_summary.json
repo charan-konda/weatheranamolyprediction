@@ -1,0 +1,39 @@
+{
+    "evaluation_type": "Unsupervised model agreement analysis",
+    "total_test_records": 19730,
+    "number_of_locations": 5,
+    "gnn_anomalies": 784,
+    "isolation_forest_anomalies": 754,
+    "both_models_detected_anomaly": 394,
+    "only_gnn_detected_anomaly": 390,
+    "only_isolation_forest_detected_anomaly": 360,
+    "both_models_classified_normal": 18586,
+    "agreement_count": 18980,
+    "agreement_percentage": 96.19868220983274,
+    "disagreement_percentage": 3.801317790167258,
+    "gnn_detection_rate_percentage": 3.97364419665484,
+    "isolation_forest_detection_rate_percentage": 3.8215914850481503,
+    "score_distributions": {
+        "GNN": {
+            "minimum": 7.2216164e-05,
+            "maximum": 0.3139216,
+            "mean": 0.0033187162672645714,
+            "median": 0.0016624745,
+            "std": 0.00763276944071216,
+            "p90": 0.006590922730000001,
+            "p95": 0.0106567098,
+            "p99": 0.02700985208999995
+        },
+        "Isolation Forest": {
+            "minimum": -0.2293984455087581,
+            "maximum": 0.102927934395152,
+            "mean": 0.027293928590149636,
+            "median": 0.0386984384803901,
+            "std": 0.04760402043232124,
+            "p90": 0.07431108827749433,
+            "p95": 0.08206730155046393,
+            "p99": 0.09099908869941292
+        }
+    },
+    "interpretation_limit": "No independently verified ground-truth event labels are available. Agreement is not equivalent to accuracy."
+}
